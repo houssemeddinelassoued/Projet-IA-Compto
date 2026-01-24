@@ -17,8 +17,6 @@
 - [Structure de la Formation](#-structure-de-la-formation)
 - [Cas d'Usage par Groupe](#-cas-dusage-par-groupe)
 - [Guide par Rôle](#-guide-par-rôle)
-- [ROI & Investissement](#-roi--investissement)
-- [Checklist Pré-Formation](#-checklist-pré-formation)
 
 ---
 
@@ -155,40 +153,7 @@ Mix    : 70% Pratique / 30% Théorie
 
 </details>
 
----
 
-## 💰 ROI & Investissement
-
-### Coûts (Année 1)
-
-| Poste | Montant |
-|-------|---------|
-| Formateur | 5 000 EUR |
-| Impression | 200 EUR |
-| Licences Gemini | 2 500 EUR |
-| Infrastructure | 500 EUR |
-| **Total** | **8 200 EUR** |
-
-### Retour sur Investissement
-
-```
-📈 Bénéfices estimés (50% adoption) : 1 500 000 EUR/an
-⏱️ Payback                          : 2 JOURS
-🚀 ROI Année 1                      : 18 183%
-```
-
----
-
-## ✅ Checklist Pré-Formation
-
-- [ ] Direction a validé budget & dates
-- [ ] Formateur nommé + Confirmé
-- [ ] Salles réservées (3 groupes)
-- [ ] 57 participants confirmés
-- [ ] Formateurs ont lu `GUIDE_FORMATEUR.md`
-- [ ] Démos live testées sur Gemini
-- [ ] Impression matériel commandée
-- [ ] Hotspot Internet backup préparé
 
 ---
 
