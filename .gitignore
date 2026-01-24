@@ -57,3 +57,5 @@ desktop.ini
 ~$*.xlsx
 ~$*.xls
 ~$*.xlsm
+.vercel
+.env*.local
