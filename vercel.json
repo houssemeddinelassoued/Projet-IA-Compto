@@ -1,6 +1,14 @@
 {
-  "buildCommand": "echo 'Static site ready'",
-  "outputDirectory": ".",
-  "public": "public",
-  "cleanUrls": true
+  "builds": [
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "public/$1"
+    }
+  ]
 }
