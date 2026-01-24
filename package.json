@@ -1,0 +1,12 @@
+{
+  "name": "projet-ia-compto",
+  "version": "1.0.0",
+  "description": "Formation IA Générative Gemini Pro - Compto Tunisie",
+  "scripts": {
+    "build": "echo 'Static site ready'",
+    "dev": "python -m http.server 3000"
+  },
+  "keywords": ["formation", "IA", "Gemini"],
+  "author": "Houssem Eddine Lassoued",
+  "license": "MIT"
+}
