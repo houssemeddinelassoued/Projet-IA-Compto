@@ -577,6 +577,61 @@ Nous avons équipé [X] sites industriels cette année.
 
 ---
 
+## 📝 COLLECTE DE CAS MÉTIERS - Contribution des Participants
+
+**Important :** Avant de commencer les exercices avancés de Session 2, nous vous demandons de **partager vos expériences métier réelles** avec Gemini Pro !
+
+### 🎯 Objectif de la collecte
+
+Documenter les **cas d'usage concrets** que vous avez testés en Session 1 pour :
+- Améliorer continuellement la formation
+- Créer une **base de cas métiers Compto**
+- Identifier les meilleures pratiques du groupe
+- Adapter les exercices futurs à vos vrais besoins
+
+### 📋 Formulaire à remplir
+
+**👉 [Cliquez ici pour remplir le formulaire de collecte des cas métiers](https://forms.gle/DQBJgRKqRp1L6ZbYA)**
+
+### ❓ Ce qu'on vous demande
+
+Après avoir testé Gemini Pro en Session 1, **remplissez ce formulaire en 5-10 min** :
+
+1. **Votre profil** : Commercial / Comptable / Juridique / Marketing / etc.
+2. **Votre fichier utilisé** : Lequel des fichiers Compto avez-vous uploadé ?
+3. **Cas métier testé** : Quel problème avez-vous résolu ?
+4. **Prompt que vous avez utilisé** : Partagez votre meilleur prompt (copier-coller)
+5. **Résultat obtenu** : Qu'a généré Gemini ? Était-ce utile ?
+6. **Gain temps/effort** : Combien de temps économisé ? (Ex: 1h au lieu de 4h)
+7. **Cas métier futur** : Quel autre cas voulez-vous automatiser ?
+
+### ✅ Exemple de réponse
+
+```
+Profil : Comptable (Amira BEDOUI)
+Fichier : TEST IMPAYE - Amira BEDOUI.xlsx
+Cas métier : Audit impayés clients avant saisie SAGE
+Prompt utilisé : "Je suis comptable... [voir Exercice 5]"
+Résultat : Détection de 3 anomalies (2 doublons + 1 date aberrante)
+Gain temps : 2 heures économisées ! (Au lieu de faire audit manuel)
+Cas futur : Automatiser rapprochement bancaire mensuel
+```
+
+### 🚀 C'est important parce que
+
+- 📊 Vos retours nous aident à **prioriser** les prochains exercices
+- 🎯 Vos cas métiers deviennent des **templates pour le groupe**
+- 💡 Les meilleurs prompts seront partagés en **reference sheet**
+- 📈 On mesure ensemble le **ROI de Gemini Pro pour Compto**
+
+---
+
+**⏰ Délai:** Remplissez le formulaire **avant de commencer Session 2** (5-10 min seulement !)
+
+---
+
+---
+
 ## Exercice 9 : Analyse Trésorerie 2025 - Consolidation & Prévisions
 
 **Énoncé :** Analyser la trésorerie de 2025 à partir de plusieurs sources (Impayés, Rapprochement Bancaire, Commandes) et proposer des recommandations
