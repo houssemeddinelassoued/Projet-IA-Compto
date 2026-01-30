@@ -583,7 +583,7 @@ Nous avons équipé [X] sites industriels cette année.
 
 ### 🎯 Objectif de la collecte
 
-Documenter les **cas d'usage concrets** que vous avez testés en Session 1 pour :
+Documenter les **cas d'usage concrets** que vous avez testés pour :
 - Améliorer continuellement la formation
 - Créer une **base de cas métiers Compto**
 - Identifier les meilleures pratiques du groupe
@@ -597,38 +597,12 @@ Documenter les **cas d'usage concrets** que vous avez testés en Session 1 pour 
 
 Après avoir testé Gemini Pro en Session 1, **remplissez ce formulaire en 5-10 min** :
 
-1. **Votre profil** : Commercial / Comptable / Juridique / Marketing / etc.
-2. **Votre fichier utilisé** : Lequel des fichiers Compto avez-vous uploadé ?
-3. **Cas métier testé** : Quel problème avez-vous résolu ?
-4. **Prompt que vous avez utilisé** : Partagez votre meilleur prompt (copier-coller)
-5. **Résultat obtenu** : Qu'a généré Gemini ? Était-ce utile ?
-6. **Gain temps/effort** : Combien de temps économisé ? (Ex: 1h au lieu de 4h)
-7. **Cas métier futur** : Quel autre cas voulez-vous automatiser ?
+1. **Votre nom**
+3. **Sujet de l'expérience : Cas métier testé** : Quel problème avez-vous résolu ?
+4. **Lien ou Prompt que vous avez utilisé** : Partagez votre meilleur prompt (copier-coller)
 
-### ✅ Exemple de réponse
-
-```
-Profil : Comptable (Amira BEDOUI)
-Fichier : TEST IMPAYE - Amira BEDOUI.xlsx
-Cas métier : Audit impayés clients avant saisie SAGE
-Prompt utilisé : "Je suis comptable... [voir Exercice 5]"
-Résultat : Détection de 3 anomalies (2 doublons + 1 date aberrante)
-Gain temps : 2 heures économisées ! (Au lieu de faire audit manuel)
-Cas futur : Automatiser rapprochement bancaire mensuel
-```
-
-### 🚀 C'est important parce que
-
-- 📊 Vos retours nous aident à **prioriser** les prochains exercices
-- 🎯 Vos cas métiers deviennent des **templates pour le groupe**
-- 💡 Les meilleurs prompts seront partagés en **reference sheet**
-- 📈 On mesure ensemble le **ROI de Gemini Pro pour Compto**
-
----
 
 **⏰ Délai:** Remplissez le formulaire **avant de commencer Session 2** (5-10 min seulement !)
-
----
 
 ---
 
@@ -1500,12 +1474,11 @@ Prochaine échéance : 25 Février 2026
 - [ ] Mesurer gain temps réel (Avant vs Après Gemini)
 - [ ] Identifier 2-3 cas à automatiser en continu
 
-**À faire après Session 2 :**
+**Suite après la formation :**
 - [ ] Implémenter Gemini dans processus mensuel (Ex. 13)
-- [ ] Former équipe sur templates standardisés
 - [ ] Valider avec Direction les nouveaux workflows
 - [ ] Documenter processus (Pour continuité)
-
+- [ ] Adopter une Politique d'utilisation IA dans un milieu entreprise 
 ---
 
 *Formation Compto - Session 2 - National Quantum - Janvier 2026*
