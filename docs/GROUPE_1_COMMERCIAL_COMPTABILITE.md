@@ -1479,6 +1479,19 @@ Prochaine échéance : 25 Février 2026
 - [ ] Valider avec Direction les nouveaux workflows
 - [ ] Documenter processus (Pour continuité)
 - [ ] Adopter une Politique d'utilisation IA dans un milieu entreprise 
+
+---
+
+## 📊 Évaluation de la Formation
+
+**Nous apprécions votre retour !** 
+
+Veuillez compléter le formulaire d'évaluation pour nous aider à améliorer la formation :
+
+👉 **[Formulaire d'évaluation Session 2 →](https://forms.gle/GQdu65u5JiwYfBYk9)**
+
+Votre avis est précieux pour l'amélioration continue de nos formations.
+
 ---
 
 *Formation Compto - Session 2 - National Quantum - Janvier 2026*
