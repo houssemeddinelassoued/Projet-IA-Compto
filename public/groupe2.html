@@ -5,57 +5,587 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Groupe 2 - Supply Chain / Préparation / Devis</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-        .container { max-width: 900px; margin: 0 auto; }
-        h1 { color: #1a73e8; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f5f5; color: #333; line-height: 1.6; }
+        .back { background: #f0f0f0; padding: 12px 15px; border-radius: 5px; display: inline-block; margin-bottom: 25px; }
+        .back a { color: #1a73e8; text-decoration: none; font-weight: 500; }
+        .back a:hover { text-decoration: underline; }
+        header { background: #1a73e8; color: white; padding: 30px 0; margin-bottom: 30px; }
+        header h1 { margin: 0; font-size: 2.5em; }
+        header p { margin: 5px 0 0 0; font-size: 1.1em; opacity: 0.95; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px 40px; }
+        h2 { color: #1a73e8; margin: 35px 0 20px 0; font-size: 1.8em; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; }
+        h3 { color: #2c3e50; margin: 25px 0 15px 0; font-size: 1.3em; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        th { background: #1a73e8; color: white; padding: 15px; text-align: left; font-weight: 600; }
+        td { padding: 12px 15px; border-bottom: 1px solid #e0e0e0; }
+        tr:hover { background: #f9f9f9; }
+        .section { margin: 30px 0; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .exercise { margin: 20px 0; padding: 20px; border-left: 4px solid #1a73e8; background: #f9f9f9; }
+        .exercise h3 { margin-top: 0; color: #1a73e8; }
+        .code-block { background: #f4f4f4; border: 1px solid #ddd; border-radius: 4px; padding: 15px; margin: 15px 0; font-family: 'Courier New', monospace; font-size: 0.9em; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; }
+        .success { background: #e8f5e9; border: 1px solid #4caf50; border-radius: 4px; padding: 15px; margin: 15px 0; }
+        .success strong { color: #2e7d32; }
+        .checklist { list-style: none; padding: 0; }
+        .checklist li { padding: 8px 0; padding-left: 30px; position: relative; }
+        .checklist li:before { content: "☐"; position: absolute; left: 0; font-weight: bold; color: #1a73e8; }
+        .profile-table { width: 100%; }
+        .warning { background: #fff3cd; border: 2px solid #ffc107; border-radius: 4px; padding: 15px; margin: 20px 0; }
+        .warning strong { color: #856404; }
+        ul { margin: 15px 0; padding-left: 30px; }
+        li { margin: 8px 0; }
         a { color: #1a73e8; text-decoration: none; }
         a:hover { text-decoration: underline; }
-        .back { background: #f0f0f0; padding: 10px; border-radius: 5px; display: inline-block; margin-bottom: 20px; }
+        strong { font-weight: 600; }
     </style>
 </head>
 <body>
+
+<div class="back"><a href="/">← Retour à l'accueil</a></div>
+
+<header>
+    <div class="container">
+        <h1>🚀 GROUPE 2 : PRÉPARATION DEVIS / SUPPLY CHAIN / CHIFFRAGE</h1>
+        <p>Formation IA Générative - Gemini Pro pour Compto</p>
+    </div>
+</header>
+
 <div class="container">
-    <div class="back"><a href="/">← Retour à l'accueil</a></div>
-    <h1>🟩 Groupe 2 - Supply Chain / Préparation / Devis</h1>
-    
-    <h2>📋 Participants & Fichiers de travail</h2>
-    <p>Voir tous les détails sur GitHub :</p>
-    <p><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/docs/GROUPE_2_SUPPLY_CHAIN_PREPARATION_DEVIS.md" target="_blank">
-        📄 Ouvrir le document complet sur GitHub →
-    </a></p>
 
-    <h2>📅 Calendrier</h2>
-    <ul>
-        <li><strong>Dates :</strong> 05/02 + 14/02</li>
-        <li><strong>Lieu :</strong> Ben Arous</li>
-        <li><strong>Participants :</strong> 22 personnes</li>
-        <li><strong>Durée :</strong> 6h total (2 séances × 3h)</li>
-    </ul>
+<h1>📋 Participants & Fichiers de travail</h1>
+<p><strong>22 participants - 15 ayant répondu</strong></p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Participant</th>
+<th>Fichier disponible</th>
+<th>Exercice(s) associé(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Abderrahim MERZOUGUI</td><td>Attachment T2 TGP-AEI-GTPT-870-CI-SPE-0003</td><td>Ex. 1, 10</td></tr>
+<tr><td>2</td><td>Slim ABID</td><td>DAO N41.2024A stations de pompages</td><td>Ex. 1, 5, 6, 8</td></tr>
+<tr><td>3</td><td>Mohamed ZARROUK</td><td>Exemple suivi - Mohamed Zarrouk.xlsx</td><td>Ex. 2, 3</td></tr>
+<tr><td>4</td><td>Mohamed MAAOUIA</td><td>-</td><td>Ex. 2, 3, 7</td></tr>
+<tr><td>5</td><td>Hiba MEZZI</td><td>Manuel SUN2000 - Hiba Mezzi.pdf</td><td>Ex. 5, 9, 13</td></tr>
+<tr><td>6</td><td>Nessrine BEN NEJMA</td><td>JAM66D45 - Nessrine Ben Nejma.pdf</td><td>Ex. 5, 9, 13</td></tr>
+<tr><td>7</td><td>Almoez JBELI</td><td>Rapport d_avancement N°4</td><td>Ex. 11</td></tr>
+<tr><td>8</td><td>Mohamed BEN MAHMOUD</td><td>Planning Prévisionnel</td><td>Ex. 11</td></tr>
+<tr><td>9</td><td>Amenallah HADDOUDI</td><td>18.037_DCE_CCTP-Lot-1-Electricité</td><td>Ex. 1, 8</td></tr>
+<tr><td>10</td><td>Rihab ZAALOUNI</td><td>Fiche technique relais Easergy P3U3O</td><td>Ex. 5, 9</td></tr>
+<tr><td>11</td><td>Rim OUERGHI</td><td>CDE N° PO-L-26-013 CIE-SOGELEC</td><td>Ex. 2, 12</td></tr>
+<tr><td>12</td><td>Ala Eddine FERCHICHI</td><td>Demande de prix CASERNE OUDHNA</td><td>Ex. 6, 12</td></tr>
+<tr><td>13</td><td>Sana MESSAOUDI</td><td>DAO -015-MN-2025</td><td>Ex. 1, 5, 8</td></tr>
+<tr><td>14</td><td>Molka MELLITI</td><td>CCTP SACNO CHAHIA ELECTRIQUE BT</td><td>Ex. 1, 8</td></tr>
+<tr><td>15</td><td>Selma TOUATI</td><td>62.2026 OFFRE TECHNIQUE MT</td><td>Ex. 6</td></tr>
+<tr><td>16</td><td>Jalel DHAOUADI ⚠️</td><td>-</td><td>-</td></tr>
+<tr><td>17</td><td>Ismail BEJI ⚠️</td><td>-</td><td>-</td></tr>
+<tr><td>18</td><td>Ibtissem MISSAOUI ⚠️</td><td>-</td><td>-</td></tr>
+<tr><td>19</td><td>Nour ⚠️</td><td>-</td><td>-</td></tr>
+<tr><td>20</td><td>Amira Trabelsi ⚠️</td><td>-</td><td>-</td></tr>
+<tr><td>21</td><td>Houda Ben Chikh ⚠️</td><td>-</td><td>-</td></tr>
+<tr><td>22</td><td>Riadh TOUATI ⚠️</td><td>-</td><td>-</td></tr>
+</tbody>
+</table>
 
-    <h2>💡 Cas d'Usage Principaux</h2>
-    <ul>
-        <li><strong>Analyser BOM + Identifier Risques</strong> : 2h → 3 min (97% gain)</li>
-        <li><strong>Générer Devis Compétitifs</strong> : 1h → 5 min (92% gain)</li>
-        <li><strong>Nettoyer Excel Chaotique</strong> : 2h → 15 min (87% gain)</li>
-    </ul>
+<div class="section">
+<h2>💡 Les 13 Exercices Pratiques</h2>
 
-    <h2>📚 Documents à Consulter</h2>
-    <ul>
-        <li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/SUPPORT_FORMATION_GEMINI_COMPLET.md" target="_blank">Support Formation Complet</a></li>
-        <li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/CARNET_EXERCICES_PRATIQUES.md" target="_blank">Carnet d'Exercices Pratiques</a></li>
-        <li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/GUIDE_FORMATEUR.md" target="_blank">Guide Formateur</a></li>
-    </ul>
+<div class="exercise">
+<h3>✏️ Exercice 1 : Votre Première Requête Simple</h3>
+<p><strong>Énoncé :</strong> Analyser rapidement une spécification technique ou un document client</p>
+<p><strong>Fichier suggéré :</strong> <code>DAO -015-MN-2025 - Sana MESSAOUDI.pdf</code> ou <code>CCTP SACNO CHAHIA ELECTRIQUE BT - Molka Melliti.pdf</code></p>
+<p><strong>Étapes :</strong></p>
+<ul>
+<li>Ouvrir Gemini (gemini.google.com)</li>
+<li>Cliquer "+" pour nouveau chat</li>
+<li>Uploader le PDF</li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je viens de recevoir ce document technique client.
 
-    <h2>🔗 Ressources</h2>
-    <ul>
-        <li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto" target="_blank">Dépôt GitHub Complet</a></li>
-        <li><a href="https://gemini.google.com" target="_blank">Gemini Pro - Outil IA</a></li>
-    </ul>
+Il vient d'être uploadé.
 
-    <p style="margin-top: 40px; padding: 20px; background: #f0f7ff; border-radius: 5px;">
-        <strong>📌 Note :</strong> Tous les détails complets, les exercices détaillés et les ressources sont disponibles sur le 
-        <a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/docs/GROUPE_2_SUPPLY_CHAIN_PREPARATION_DEVIS.md" target="_blank">document complet sur GitHub</a>.
-    </p>
+Résume en 5 points CLÉS :
+1. Qu'est-ce que c'est (projet, scope) ?
+2. Paramètres principaux (puissance, équipements, etc.) ?
+3. Normes de conformité ?
+4. Délais requis ?
+5. Budget estimé (si mention) ?
+
+Réponds simplement pour non-technicien. Pas de jargon excessif.</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Réponse claire en 5 points</li>
+<li>Pas trop technique</li>
+<li>Temps < 1 min</li>
+<li>Prêt à présenter au responsable</li>
+</ul>
 </div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 2 : Détection Anomalies Données (Excel/Fichiers)</h3>
+<p><strong>Énoncé :</strong> Analyser un fichier Excel pour trouver les erreurs avant traitement</p>
+<p><strong>Fichiers réels :</strong> <code>Exemple suivi - Mohamed Zarrouk.xlsx</code> | <code>CDE N° PO-L-26-013 CIE-SOGELEC - Rim OUERGHI.docx</code></p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis gestionnaire supply chain chez Compto.
+
+Voici mon fichier Excel de suivi articles/stock.
+
+ANALYSE DEMANDÉE :
+1. Structure du fichier (colonnes, nombre de lignes)
+2. Données manquantes ? (cases vides critiques)
+3. Doublons ? (même référence article)
+4. Quantités aberrantes ? (0, négatif, très élevé)
+5. Prix unitaires suspects ? (trop bas ou trop élevé)
+6. Incohérences format ?
+
+Pour chaque problème trouvé :
+- Localisation exacte (ligne, colonne)
+- Description du problème
+- Correction proposée</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Structure fichier comprise</li>
+<li>Tous problèmes identifiés</li>
+<li>Corrections localisées précisément</li>
+<li>Prêt pour correction et traitement</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 3 : Détection Doublons Articles CIE/CER</h3>
+<p><strong>Énoncé :</strong> Identifier les doublons entre bases CIE et CER dans un fichier de suivi articles</p>
+<p><strong>Fichier :</strong> <code>Exemple suivi - Mohamed Zarrouk.xlsx</code></p>
+<p><strong>Étapes :</strong></p>
+<ul>
+<li>Uploader le fichier Excel dans Gemini</li>
+<li>Utiliser le prompt de détection</li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Analyse ce fichier de suivi articles.
+
+Je suspecte des DOUBLONS entre articles CIE et CER.
+
+Identifie :
+1. Articles avec références similaires mais codes différents
+2. Articles avec descriptions identiques mais fournisseurs différents
+3. Stocks "morts" (pas de mouvement depuis 6+ mois)
+
+Présente résultats en tableau :
+| Ref CIE | Ref CER | Description | Statut | Recommandation |
+
+Priorise par impact financier (valeur stock).</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Doublons identifiés avec preuves</li>
+<li>Valorisation financière claire</li>
+<li>Actions recommandées</li>
+<li>Temps < 5 min (vs 4h manuellement)</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 4 : Analyse BOM - Identification Risques</h3>
+<p><strong>Énoncé :</strong> Parser BOM complexe pour identifier risques supply chain</p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis gestionnaire supply chain.
+
+Fichier uploadé = BOM pour projet PV 1 MWc (Tunisie, zone côtière).
+
+ANALYSE :
+1. STATISTIQUES :
+   - Composants total ?
+   - Catégories principales ?
+   - Lead time maximum identifié ?
+
+2. COMPOSANTS CRITIQUES :
+   Lister ceux avec lead time > 8 semaines (= risque délai)
+
+3. FOURNISSEURS UNIQUES :
+   "Single source" = risque. Identifie-les.
+
+4. RECOMMANDATION IMMÉDIATE :
+   Qu'est-ce qu'on doit pré-commander MAINTENANT pour éviter retard ?
+
+Format : Tableau structuré + Actions prioritaires</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Nombre composants correct</li>
+<li>Lead times identifiés</li>
+<li>Single source flaggés</li>
+<li>Actions claires & priorisées</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 5 : Comparaison Fournisseurs + Recommandation</h3>
+<p><strong>Énoncé :</strong> Choisir le meilleur fournisseur onduleur (Coût, délai, qualité)</p>
+<p><strong>Fichiers :</strong> Manuels d'utilisation fournisseurs</p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis acheteur.
+
+Pour projet 500 kWc, je dois choisir onduleur.
+Critères : Rendement, Robustesse, Prix, Délai.
+
+UPLOADS :
+1. Huawei SUN2000-280KTL
+2. Sungrow SG125CX
+
+COMPARE :
+┌─────────────────┬──────────┬──────────┐
+│ Critère         │ Huawei   │ Sungrow  │
+├─────────────────┼──────────┼──────────┤
+│ Rendement (%)   │          │          │
+│ Protection (IP) │          │          │
+│ Garantie (ans)  │          │          │
+│ Coût approx/kW  │          │          │
+│ Délai Tunisie   │          │          │
+└─────────────────┴──────────┴──────────┘
+
+SCORE FINAL (0-100) + Recommandation justifiée.
+
+Qui choisir pour projet côtier (corrosion) ?</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Critères comparés</li>
+<li>Scores numériques</li>
+<li>Recommandation claire</li>
+<li>Justification concise</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 6 : Génération Devis Automatisée</h3>
+<p><strong>Énoncé :</strong> Créer devis client "clés en main" rapidement</p>
+<p><strong>Données :</strong></p>
+<div class="code-block">CLIENT : EnergiePlus (SARL)
+CONTACT : Amira Trabelsi
+PROJET : Centrale PV 250 kWc
+BUDGET CLIENT : Environ 200 000 EUR HT
+MATIÈRE ESTIMÉE : 100 000 EUR
+MAIN D'ŒUVRE : 40 000 EUR
+MARGE Compto : 25%
+DÉLAI SOUHAITÉ : 16 semaines</div>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Tu es commercial.
+
+PROJET :
+- Client : EnergiePlus SARL
+- Contact : Amira Trabelsi
+- Scope : Centrale PV 250 kWc
+- Délai : 16 semaines
+- Budget approx : 200 000 EUR HT
+
+DONNÉES COÛTS :
+- Matière : 100 000 EUR HT
+- Main-d'œuvre : 40 000 EUR HT
+- Imprévus : 10%
+- Marge Compto : 25% sur total
+
+GÉNÈRE DEVIS avec sections :
+1. En-tête (Logo Compto, N°, Date)
+2. Description scope
+3. Tableau détail coûts
+4. Conditions paiement (30% acompte, 40% mid-term, 30% livraison)
+5. Validité : 30 jours
+6. Signature
+
+Format : Prêt à copier dans Word/Email</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Tous coûts inclus</li>
+<li>Tarif calculé correctement</li>
+<li>Conditions paiement claires</li>
+<li>Prêt à envoyer</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 7 : Dataset Excel - Nettoyage + Analyse</h3>
+<p><strong>Énoncé :</strong> Analyser fichier de données PV complexe</p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis analyste données.
+
+Fichier uploadé = Dataset PV.
+
+ANALYSE :
+1. Qu'est-ce que ce dataset (structure, variables) ?
+2. Combien de lignes / colonnes ?
+3. Données manquantes ? Doublons ?
+4. KPI principaux calculables ?
+5. 3 insights intéressants (performance, anomalies, tendances)
+
+Format : Résumé exécutif + Recommandations</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Structure bien comprise</li>
+<li>Qualité données évaluée</li>
+<li>KPI pertinents identifiés</li>
+<li>Insights exploitables</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 8 : Synthèse Cahier des Charges Technique</h3>
+<p><strong>Énoncé :</strong> Extraire les exigences techniques clés d'un CCTP pour préparer le chiffrage</p>
+<p><strong>Fichiers :</strong> <code>CCTP SACNO CHAHIA ELECTRIQUE BT - Molka Melliti.pdf</code></p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis technicien chiffrage chez Compto.
+
+J'ai uploadé un Cahier des Clauses Techniques Particulières (CCTP).
+
+ANALYSE DEMANDÉE :
+1. Objet du marché (en 2 phrases)
+2. Lots concernés et périmètre
+3. Exigences techniques clés (Normes, Puissances, Équipements)
+4. Délais et planning exigés
+5. Critères de conformité / Essais requis
+6. Points de vigilance pour le chiffrage
+
+Format : 
+- Tableau récapitulatif des exigences
+- Liste des équipements à chiffrer
+- Alertes sur points critiques</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Exigences techniques extraites</li>
+<li>Équipements à chiffrer listés</li>
+<li>Délais identifiés</li>
+<li>Points critiques flaggés</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 9 : Analyse Planning + Identification Risques Délais</h3>
+<p><strong>Énoncé :</strong> Analyser un planning projet pour identifier les risques et les goulots</p>
+<p><strong>Fichiers :</strong> <code>Planning Prévisionnel - Mohamed Ben Mahmoud.pdf</code></p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis manager de projet.
+
+Planning uploadé pour centrale PV 500 kWc.
+
+ANALYSE :
+1. Durée totale projet et jalons clés ?
+2. Chemin critique (tâches non-décalables) ?
+3. Marges libres / flottantes ?
+4. Tâches critiques bloquantes ?
+5. Risques délai identifiables ?
+6. Recommandations d'optimisation</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Jalons identifiés</li>
+<li>Chemin critique clair</li>
+<li>Risques délai listés</li>
+<li>Actions correctives proposées</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 10 : Spécifications Télécom - Extraction & Chiffrage</h3>
+<p><strong>Énoncé :</strong> Extraire spécifications complexes pour chiffrer une solution télécom</p>
+<p><strong>Fichiers :</strong> Documents de spécifications techniques</p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis chiffreur solutions télécom chez Compto.
+
+UPLOADS = Spécifications client projet télécom.
+
+EXTRACTION :
+1. Équipements requis (Détail complet)
+2. Quantités (par type d'équipement)
+3. Versions / Références exactes
+4. Services associés (installation, formation, support)
+5. Délais spécifiés
+6. Normes/Certifications exigées
+
+Format : Tableau chiffrage avec références fournisseur</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Équipements clairement identifiés</li>
+<li>Quantités exactes</li>
+<li>Services listés</li>
+<li>Références fournisseur incluses</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 11 : Reporting Avancement Projet</h3>
+<p><strong>Énoncé :</strong> Créer un rapport d'avancement à partir de données brutes</p>
+<p><strong>Fichiers :</strong> <code>Rapport d_avancement N°4 - Almoez Jbeli.pdf</code></p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis directeur opérationnel.
+
+Fichier uploadé = données avancement projet.
+
+GÉNÈRE RAPPORT D'AVANCEMENT :
+
+1. STATUT GLOBAL (Vert/Orange/Rouge)
+2. Avancement physique (% complet)
+3. Avancement financier (budget utilisé)
+4. Jalons réalisés vs planifiés
+5. Écarts majeurs identifiés
+6. Actions correctives proposées
+7. Risques/Bloquants actuels
+8. Prévisions de fin
+
+Format : Rapport de 2 pages max, prêt pour CODIR</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Statut global clair</li>
+<li>KPI avancement calculés</li>
+<li>Écarts analysés</li>
+<li>Actions recommandées</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 12 : Traitement Commandes Clients - Structuration Données</h3>
+<p><strong>Énoncé :</strong> Analyser et structurer des commandes clients pour traitement</p>
+<p><strong>Fichiers :</strong> <code>CDE N° PO-L-26-013 CIE-SOGELEC - Rim OUERGHI.docx</code></p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis responsable commandes.
+
+Fichier uploadé = Commande client CIE-SOGELEC.
+
+ANALYSE & STRUCTURATION :
+1. Numéro commande & date
+2. Client & contact
+3. Articles commandés (Ref, Qty, Prix unit, Total)
+4. Conditions commerciales (Délai, Paiement)
+5. Montant total HT/TTC
+6. Date livraison requise
+7. Adresse livraison
+8. Notes spéciales
+
+Format : Tableau structuré + Fiche commande prête pour traitement interne</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Commande identifiée</li>
+<li>Articles structurés</li>
+<li>Montants calculés</li>
+<li>Conditions claires</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 13 : Comparaison Fournisseurs Équipements (Multi-critères)</h3>
+<p><strong>Énoncé :</strong> Comparer plusieurs fournisseurs sur critères multiples</p>
+<p><strong>Fichiers :</strong> Documentations fournisseurs divers</p>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis achats stratégiques.
+
+J'ai uploadé docs de 3 fournisseurs d'équipements électriques.
+
+COMPARAISON MULTI-CRITÈRES :
+
+| Critère           | Fournisseur A | Fournisseur B | Fournisseur C | Score |
+|-------------------|---------------|---------------|---------------|-------|
+| Prix (€/unité)    |               |               |               |       |
+| Délai (semaines)  |               |               |               |       |
+| Garantie (ans)    |               |               |               |       |
+| Certifications    |               |               |               |       |
+| Références (%)    |               |               |               |       |
+| Support local     |               |               |               |       |
+
+SCORE FINAL (0-100) par fournisseur + Recommandation
+
+Qui choisir ? Justification en 3 points clés.</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Tous critères comparés</li>
+<li>Scores calculés</li>
+<li>Recommandation justifiée</li>
+<li>Prêt pour présentation achats</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div class="section">
+<h2>🎓 Récapitulatif des Exercices par Profil</h2>
+<table class="profile-table">
+<thead>
+<tr>
+<th>Profil</th>
+<th>Exercices recommandés</th>
+<th>Fichiers à utiliser</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><strong>Acheteur / Sourcing</strong></td><td>Ex. 5, 13</td><td>Manuels fournisseurs</td></tr>
+<tr><td><strong>Gestionnaire Supply Chain</strong></td><td>Ex. 2, 3, 4</td><td>Fichiers suivi articles, BOM</td></tr>
+<tr><td><strong>Commercial / Chiffrage</strong></td><td>Ex. 1, 6, 8</td><td>Specs clients, CCTP</td></tr>
+<tr><td><strong>Technicien / Ingénieur</strong></td><td>Ex. 1, 4, 8, 10</td><td>Specs techniques</td></tr>
+<tr><td><strong>Manager Projet</strong></td><td>Ex. 9, 11</td><td>Planning, Avancement</td></tr>
+<tr><td><strong>ADV / Commandes</strong></td><td>Ex. 12</td><td>Commandes clients</td></tr>
+<tr><td><strong>Analyste Données</strong></td><td>Ex. 7</td><td>Datasets Excel</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>✅ Checklist Post-Session 1</h2>
+<p><strong>À faire dans la séance :</strong></p>
+<ul class="checklist">
+<li>Tester Gemini sur 1 de VOS fichiers personnels</li>
+<li>Identifier votre cas #1 (gain de temps le plus évident)</li>
+<li>Partager votre meilleur prompt avec le groupe</li>
+</ul>
+<p><strong>À faire en 1 semaine (Session 2) :</strong></p>
+<ul class="checklist">
+<li>3 utilisations minimum sur cas réels / participant</li>
+<li>Noter les prompts qui fonctionnent bien</li>
+<li>Montrer les résultats</li>
+<li>Préparer 1 question pour la session 2</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>📅 Informations Pratiques</h2>
+<h3>Sessions & Formateur</h3>
+<ul>
+<li><strong>Sessions :</strong> Jeudi 05/02/2026 et Samedi 14/02/2026</li>
+<li><strong>Lieu :</strong> Ben Arous</li>
+<li><strong>Formateur :</strong> Houssem Eddine Lassoued</li>
+<li><strong>Durée :</strong> 6 heures total (2 séances × 3h)</li>
+</ul>
+<h3>Ressources Complémentaires</h3>
+<ul>
+<li><a href="https://gemini.google.com" target="_blank">Gemini Pro - Outil IA</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/SUPPORT_FORMATION_GEMINI_COMPLET.md" target="_blank">Support Formation Complet</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/CARNET_EXERCICES_PRATIQUES.md" target="_blank">Carnet d'Exercices Pratiques</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/GUIDE_FORMATEUR.md" target="_blank">Guide Formateur</a></li>
+</ul>
+</div>
+
+</div>
+
 </body>
 </html>
