@@ -104,18 +104,23 @@
 <li>Uploader le PDF</li>
 </ul>
 <p><strong>Prompt :</strong></p>
-<div class="code-block">Je viens de recevoir ce document technique client.
+<div class="code-block">Je suis [gestionnaire supply chain / commercial] chez Compto, société d'ingénierie électrique.
 
-Il vient d'être uploadé.
+Je viens de recevoir ce document technique client (PDF uploadé).
 
-Résume en 5 points CLÉS :
-1. Qu'est-ce que c'est (projet, scope) ?
-2. Paramètres principaux (puissance, équipements, etc.) ?
-3. Normes de conformité ?
-4. Délais requis ?
-5. Budget estimé (si mention) ?
+Analyse rapide demandée :
+1. Type de projet et périmètre (en 1 phrase)
+2. Paramètres techniques principaux (puissance, équipements clés)
+3. Normes de conformité exigées
+4. Délais de réalisation requis
+5. Budget estimé si mentionné (sinon indiquer "Non spécifié")
 
-Réponds simplement pour non-technicien. Pas de jargon excessif.</div>
+Format attendu :
+- Langage simple pour présentation au responsable
+- Pas de jargon technique excessif
+- Bullet points clairs et concis
+
+Temps maximal : 2 minutes</div>
 <div class="success">
 <strong>✅ Vérification :</strong>
 <ul class="checklist">
@@ -160,63 +165,14 @@ Pour chaque problème trouvé :
 </div>
 
 <div class="exercise">
-<h3>✏️ Exercice 3 : Détection Doublons Articles CIE/CER</h3>
-<p><strong>Énoncé :</strong> Identifier les doublons entre bases CIE et CER dans un fichier de suivi articles</p>
-<p><strong>Fichier :</strong> <code>Exemple suivi - Mohamed Zarrouk.xlsx</code></p>
-<p><strong>Étapes :</strong></p>
-<ul>
-<li>Uploader le fichier Excel dans Gemini</li>
-<li>Utiliser le prompt de détection</li>
-</ul>
-<p><strong>Prompt :</strong></p>
-<div class="code-block">Analyse ce fichier de suivi articles.
-
-Je suspecte des DOUBLONS entre articles CIE et CER.
-
-Identifie :
-1. Articles avec références similaires mais codes différents
-2. Articles avec descriptions identiques mais fournisseurs différents
-3. Stocks "morts" (pas de mouvement depuis 6+ mois)
-
-Présente résultats en tableau :
-| Ref CIE | Ref CER | Description | Statut | Recommandation |
-
-Priorise par impact financier (valeur stock).</div>
-<div class="success">
-<strong>✅ Vérification :</strong>
-<ul class="checklist">
-<li>Doublons identifiés avec preuves</li>
-<li>Valorisation financière claire</li>
-<li>Actions recommandées</li>
-<li>Temps < 5 min (vs 4h manuellement)</li>
-</ul>
-</div>
-</div>
-
-<div class="exercise">
 <h3>✏️ Exercice 4 : Analyse BOM - Identification Risques</h3>
-<p><strong>Énoncé :</strong> Parser BOM complexe pour identifier risques supply chain</p>
+<p><strong>Énoncé :</strong> Adapter la demande pour auditer la faisabilité de fabrication et la conformité technique</p>
 <p><strong>Prompt :</strong></p>
-<div class="code-block">Je suis gestionnaire supply chain.
-
-Fichier uploadé = BOM pour projet PV 1 MWc (Tunisie, zone côtière).
-
-ANALYSE :
-1. STATISTIQUES :
-   - Composants total ?
-   - Catégories principales ?
-   - Lead time maximum identifié ?
-
-2. COMPOSANTS CRITIQUES :
-   Lister ceux avec lead time > 8 semaines (= risque délai)
-
-3. FOURNISSEURS UNIQUES :
-   "Single source" = risque. Identifie-les.
-
-4. RECOMMANDATION IMMÉDIATE :
-   Qu'est-ce qu'on doit pré-commander MAINTENANT pour éviter retard ?
-
-Format : Tableau structuré + Actions prioritaires</div>
+<div class="code-block">Analyse cette Nomenclature de Production (Sous-ensemble critique). Identifie :
+L'Identité Technique Exacte : Que fabrique-t-on précisément ? (Specs, Références)*
+L'Analyse des "Petites Fournitures" : Y a-t-il incohérence entre le matériel noble (HTA) et la quincaillerie (Visserie) pour un milieu corrosif ?*
+Le Séquençage de Montage : Que nous disent les numéros d'opération (OP) sur le processus ?*
+Le Kit "Consommables" : Est-il complet pour le câbleur ou manque-t-il des éléments ?"*</div>
 <div class="success">
 <strong>✅ Vérification :</strong>
 <ul class="checklist">
