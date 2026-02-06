@@ -58,26 +58,58 @@
 
 ---
 
-### 🟢 GROUPE 2 : Supply Chain, Préparation Devis, Chiffrage
+### 🟢 GROUPE 2 : Préparation des Devis, Supply Chain (22 participants)
+**Sessions :** Jeudi 05/02/2026 et Samedi 14/02/2026 - Ben Arous
 
-| Nom | Poste | Niveau IA | Fichier fourni | Besoin prioritaire |
-|-----|-------|-----------|----------------|-------------------|
-| **Mohamed ZARROUK** | Supply Chain Manager | Intermédiaire | Exemple suivi.xlsx | **Détection doublons CIE/CER, stocks morts** |
-| **Mohamed MAAOUIA** | Gestionnaire Stock | Intermédiaire | Etat valorisé stocks.xlsx | Analyse données, Excel avancé |
-| **Sana MESSAOUDI** | Chiffrage | Débutant | DAO.pdf | **Comparaison fiches techniques multi-fabricants** |
-| **Slim ABID** | Resp. Chiffrage/Devis | Intermédiaire | DAO stations pompage.pdf | Traduction, synthèse technique |
-| **Molka MELLITI** | Tech. Chiffrage BT | Intermédiaire | CCTP électrique.pdf | Synthèse normes, comparaison produits |
-| **Rihab ZAALOUNI** | Tech. Devis/Chiffrage | Intermédiaire | Fiche relais protection.pdf | Traduction, analyse données |
-| **Mehdi DRIDI** | Resp. Production/ERP | Intermédiaire | BOMPRN.pdf | SQL, analyse données SAGE X3 |
+#### Participants ayant répondu au questionnaire (15) :
+
+| # | Nom | Poste | Niveau IA | Fichier fourni | Besoin prioritaire |
+|---|-----|-------|-----------|----------------|-------------------|
+| 1 | **Abderrahim MERZOUGUI** | Dir. Projets et Solutions | Débutant | Attachment T2 Telecom.pdf | Offres clés en main, rédaction, analyse specs |
+| 2 | **Slim ABID** | Resp. Chiffrage/Devis | Intermédiaire | DAO stations pompage.pdf | Synthèse docs longs, traduction technique |
+| 3 | **Mohamed ZARROUK** | Supply Chain Manager | Intermédiaire | Exemple suivi.xlsx | **Détection doublons CIE/CER, stocks morts, substitution** |
+| 4 | **Mohamed MAAOUIA** | Gestionnaire Stock | Intermédiaire | - | Analyse données Excel, recherche infos |
+| 5 | **Hiba MEZZI** | Chargée d'études PV BT/MT | Intermédiaire | Manuel SUN2000.pdf | Résumé manuels techniques, reformulation emails |
+| 6 | **Nessrine BEN NEJMA** | Chargée d'études CER | Intermédiaire | Fiche JAM66D45.pdf | Reformulation emails, synthèse docs |
+| 7 | **Almoez JBELI** | Chef Projet | Intermédiaire | Rapport avancement.pdf | Analyse données, créativité, automatisation |
+| 8 | **Mohamed BEN MAHMOUD** | Chargé d'affaires MT/BT | Intermédiaire | Planning Prévisionnel.pdf | Rédaction, synthèse, traduction |
+| 9 | **Amenallah HADDOUDI** | Tech. Études Affaires Ensemble | Intermédiaire | CCTP Lot Électricité.pdf | **Résumé CDC, extraction infos, tableaux devis** |
+| 10 | **Rihab ZAALOUNI** | Tech. Devis/Chiffrage | Intermédiaire | Fiche relais protection.pdf | Traduction technique, analyse données |
+| 11 | **Rim OUERGHI** | Gestionnaire Commercial | Débutant | Commande CIE-SOGELEC.docx | Nettoyage Excel, classement dossiers |
+| 12 | **Ala Eddine FERCHICHI** | Technico-commercial | Débutant | Demande de prix.pdf | Rédaction, analyse données, automatisation |
+| 13 | **Sana MESSAOUDI** | Chiffrage | Débutant | DAO.pdf | **Comparaison fiches techniques multi-fabricants** |
+| 14 | **Molka MELLITI** | Tech. Chiffrage BT | Intermédiaire | CCTP électrique.pdf | Synthèse normes, analyse schémas, comparaison |
+| 15 | **Selma TOUATI** | Assistante Dir. Commerciale | Débutant | Offre technique MT.docx | Nettoyage Excel, classement dossiers |
+
+#### Participants n'ayant PAS répondu (7) :
+
+| # | Nom | Email |
+|---|-----|-------|
+| 16 | Jalel DHAOUADI | jalel.dhaouadi@compto-cie.com |
+| 17 | Ismail BEJI | ismail.beji@compto-cer.com |
+| 18 | Ibtissem MISSAOUI | ibtissem.missaoui@compto-cer.com |
+| 19 | Nour | achat-cie@compto-cie.com |
+| 20 | Amira Trabelsi | amira.trabelsi@compto-cie.com |
+| 21 | Houda Ben Chikh | houda.benchikh@compto-cer.com |
+| 22 | Riadh TOUATI | riadh.touati@compto-cie.com |
 
 **Fichiers disponibles dans /files pour Groupe 2 :**
-- `Exemple suivi - Mohamed Zarrouk.xlsx`
-- `Etat valorisé Variation des stocks MP Fin Novembre-Decembre - Mohamed MÀAOUIA.xlsx`
-- `DAO -015-MN-2025 - Sana MESSAOUDI.pdf`
-- `DAO N41.2024A stations de pompages SP1_____SP2.SP3 et SP4 - Slim ABID.pdf`
-- `CCTP SACNO CHAHIA ELECTRIQUE BT RENDERING 24 mai 2025 - Molka Melliti.pdf`
-- `Fiche technique relais de protection Easergy P3U3O - Rihab Zaalouni.pdf`
-- `BOMPRN (6) - Mehdi Dridi.pdf`
+- `Exemple suivi - Mohamed Zarrouk.xlsx` (Doublons articles CIE/CER)
+- `DAO -015-MN-2025 - Sana MESSAOUDI.pdf` (Dossier appel d'offres)
+- `DAO N41.2024A stations de pompages SP1_____SP2.SP3 et SP4 - Slim ABID.pdf` (DAO stations pompage)
+- `CCTP SACNO CHAHIA ELECTRIQUE BT RENDERING 24 mai 2025 - Molka Melliti.pdf` (CCTP électrique)
+- `Fiche technique relais de protection Easergy P3U3O - Rihab Zaalouni.pdf` (Fiche technique)
+- `18.037_DCE_CCTP-Lot-1-Electricité-Courants-Forts - Amenallah Haddoudi.pdf` (CCTP courants forts)
+- `Cahier des clauses techniques particulières - Amenallah Haddoudi.pdf` (CCTP)
+- `04 01 26 Rapport d_avancement des travaux N°4 - Almoez Jbeli.pdf` (Rapport avancement)
+- `Planning Prévisionnel - Mohamed Ben Mahmoud.pdf` (Planning projet)
+- `CDE N° PO-L-26-013 CIE-SOGELEC - Rim OUERGHI.docx` (Commande)
+- `Demande de prix CASERNE OUDHNA - Vente Compto.pdf` (Demande prix - Ala Eddine)
+- `extrimite interieur - Vente Compto.pdf` (Fiche technique - Ala Eddine)
+- `62.2026 OFFRE TECHNIQUE MT VARIANTE N°01 - Selma TOUATI.docx` (Offre technique MT)
+- `Manuel d_utilisation, série SUN2000-(250KTL, 280KTL, 300KTL, 330KTL) (2) - Hiba Mezzi.pdf` (Manuel onduleur)
+- `JAM66D45 605-630 LB 30 Frame Standard Product Global_EN_20241105A (11) - Nessrine Ben Nejma.pdf` (Fiche panneau PV)
+- `Attachment T2 TGP-AEI-GTPT-870-CI-SPE-0003 - Direction Projets.pdf` (Spec Telecom - Abderrahim)
 
 ---
 
@@ -207,12 +239,44 @@
    - Contexte : relance devis, client export
    - Utiliser contexte de `Offre technique BURKINA - Skander.docx`
 
+### Pour le GROUPE 2 (Préparation Devis, Supply Chain - 22 participants)
+
+1. **Exercice phare : Détection Doublons Articles CIE/CER**
+   - Utiliser `Exemple suivi - Mohamed Zarrouk.xlsx`
+   - Identifier doublons, stocks morts, articles à faible rotation
+   - Montrer valorisation financière et recommandations de substitution
+
+2. **Exercice Synthèse CCTP / Cahier des Charges**
+   - Utiliser `CCTP SACNO CHAHIA - Molka.pdf`, `18.037_DCE_CCTP - Amenallah.pdf` ou `DAO - Slim/Sana.pdf`
+   - Extraire exigences techniques clés, normes applicables
+   - Créer tableau récapitulatif pour chiffrage
+
+3. **Exercice Comparaison Équipements PV**
+   - Utiliser `Manuel SUN2000 - Hiba.pdf` + `JAM66D45 - Nessrine.pdf`
+   - Comparer caractéristiques, compatibilité, recommandation
+
+4. **Exercice Reporting Projet & Planning**
+   - Utiliser `Rapport avancement N°4 - Almoez.pdf` + `Planning - M. Ben Mahmoud.pdf`
+   - Synthèse avancement, identification retards, actions correctives
+
+5. **Exercice Traitement Commandes/Demandes Prix**
+   - Utiliser `Commande CIE-SOGELEC - Rim.docx` + `Demande prix CASERNE - Ala Eddine.pdf`
+   - Extraction données, préparation saisie SAGE X3
+
+6. **Exercice Analyse Spec Technique Télécom**
+   - Utiliser `Attachment T2 TGP - Direction Projets.pdf` (Abderrahim)
+   - Résumé pour offre clé en main
+
+7. **Exercice Génération Offre Technique**
+   - Utiliser `62.2026 OFFRE TECHNIQUE MT - Selma.docx`
+   - Générer devis structuré
+
 ### Champions identifiés par groupe
 
 | Groupe | Champion "Business" | Champion "Tech/Data" |
 |--------|--------------------|--------------------|
 | Groupe 1 | **Skander BOUCHLAGHEM** (Avancé) | **Eya BEN GOUIDER** (Excel/SAGE) |
-| Groupe 2 | **Mohamed ZARROUK** (Supply Chain) | **Mehdi DRIDI** (SQL/ERP) |
+| Groupe 2 | **Abderrahim MERZOUGUI** (Dir. Projets) | **Mohamed ZARROUK** (Supply Chain) |
 | Groupe 3 | **Almoez JBELI** (Projets) | **Mohamed ABDELMOUMEN** (Avancé, Data) |
 
 ### Binômes recommandés (Débutant + Intermédiaire/Avancé)
@@ -222,6 +286,15 @@
 - Imen KEFI (Débutant) + Abir Belguesmi (Débutant) + Eya Ben Gouider (Intermédiaire) - commercial/ADV
 - Salwa Jouini (Débutant) + Linda ELKEBIR (Intermédiaire) - contrats
 - Aida BEN HASSSINE (Débutant) + Malika OTHMANI (Intermédiaire) - admin/finance
+
+**Groupe 2 :**
+- Sana MESSAOUDI (Débutant) + Slim ABID (Intermédiaire) + Molka MELLITI (Intermédiaire) - chiffrage/devis
+- Mohamed ZARROUK (Intermédiaire) + Mohamed MAAOUIA (Intermédiaire) - stock/supply chain
+- Hiba MEZZI (Intermédiaire) + Nessrine BEN NEJMA (Intermédiaire) - études PV
+- Rim OUERGHI (Débutant) + Selma TOUATI (Débutant) + Ala Eddine FERCHICHI (Débutant) - commercial/ADV
+- Almoez JBELI (Intermédiaire) + Mohamed BEN MAHMOUD (Intermédiaire) - gestion projets
+- Amenallah HADDOUDI (Intermédiaire) + Rihab ZAALOUNI (Intermédiaire) - technique
+- Abderrahim MERZOUGUI (Débutant, Dir.) peut superviser les binômes
 
 ---
 
@@ -238,4 +311,5 @@
 
 ---
 
-*Dernière mise à jour : 24/01/2026*
+*Dernière mise à jour : 01/02/2026*
+

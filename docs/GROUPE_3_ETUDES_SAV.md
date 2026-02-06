@@ -1,5 +1,9 @@
 # 🚀 GROUPE 3 : ÉTUDES / SAV
 
+**📥 Lien Drive :** https://shorturl.at/JV2Bz (téléchargement des fichiers nécessaires)
+
+---
+
 ## Exercice 10 : Diagnostic Onduleur (Multimodal)
 
 **Énoncé :** Diagnostiquer anomalie équipement via photo + manuel
