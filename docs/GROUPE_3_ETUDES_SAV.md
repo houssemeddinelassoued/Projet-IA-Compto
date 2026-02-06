@@ -483,7 +483,7 @@ Format : Tableau synthèse + priorités
 - **Sessions :** Samedi 07/02/2026 et Jeudi 12/02/2026
 - **Lieu :** Ben Arous
 - **Formateur :** Houssem Eddine Lassoued
-- **Durée :** 6 heures total (2 séances × 3h)
+- **Durée :** 10 heures total (2 séances × 5h)
 
 **Ressources Complémentaires :**
 - https://gemini.google.com
