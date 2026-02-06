@@ -448,16 +448,182 @@ Format : Tableau synthèse + priorités
 
 ---
 
+### ✏️ Exercice 15 : Créer un Simulateur Web Interactif (Canvas Mode)
+**Énoncé :** Utiliser Gemini Canvas pour créer une interface Web interactive
+
+**🎯 Cas d'usage suggérés :**
+
+**Option A - Calculateur de Dimensionnement PV**
+```
+Crée une interface Web interactive pour calculer le dimensionnement d'une installation photovoltaïque.
+
+FONCTIONNALITÉS :
+1. Entrées utilisateur :
+   - Puissance souhaitée (kW)
+   - Localisation (Tunisie)
+   - Type d'installation (toiture/sol)
+   - Budget disponible (TND)
+
+2. Calculs automatiques :
+   - Nombre de panneaux nécessaires
+   - Surface requise (m²)
+   - Type d'onduleur recommandé (SG125CX / SUN2000)
+   - Production annuelle estimée (kWh)
+   - ROI et temps de retour
+
+3. Interface :
+   - Design moderne et responsive
+   - Graphiques de production mensuelle
+   - Bouton "Télécharger le devis PDF"
+   - Comparaison avec consommation actuelle
+
+Base-toi sur les données du fichier : DATASET PV SYST - Mohamed Abdelmoumen.csv
+
+Languages : HTML + CSS + JavaScript (vanilla, pas de framework)
+```
+
+**Option B - Simulateur de Diagnostic SAV**
+```
+Crée un assistant de diagnostic interactif pour techniciens SAV.
+
+FONCTIONNALITÉS :
+1. Questionnaire guidé :
+   - Type d'équipement (Onduleur/Disjoncteur/etc.)
+   - Symptômes observés (liste déroulante)
+   - Codes d'erreur affichés
+   - Photos uploadables
+
+2. Diagnostic automatique :
+   - Causes probables (% de probabilité)
+   - Actions correctives étape par étape
+   - Pièces de rechange nécessaires
+   - Niveau d'urgence (Vert/Orange/Rouge)
+
+3. Export :
+   - Rapport SAV pré-rempli (PDF)
+   - Message WhatsApp client (copier-coller)
+
+Base-toi sur : Manuel SG125CX, RapportSAV, ODP SAV
+
+Style : Interface type "chatbot" avec messages
+```
+
+**Option C - Dashboard Suivi Projet Interactif**
+```
+Crée un tableau de bord de suivi de projet en temps réel.
+
+FONCTIONNALITÉS :
+1. Indicateurs clés :
+   - % Avancement physique (barre de progression)
+   - % Avancement financier
+   - Budget consommé vs prévisionnel
+   - Jalons atteints / totaux
+
+2. Visualisations :
+   - Diagramme de Gantt simplifié
+   - Alertes retards (cartes rouges)
+   - Graphique courbe en S (prévisionnel vs réel)
+
+3. Actions rapides :
+   - Ajouter un risque
+   - Marquer jalon comme atteint
+   - Générer rapport hebdomadaire
+
+Base-toi sur : Rapport avancement + Planning PMBOK
+
+Style : Dashboard moderne type "admin panel"
+```
+
+**Option D - Comparateur d'Équipements Interactif**
+```
+Crée un comparateur d'équipements avec scoring automatique.
+
+FONCTIONNALITÉS :
+1. Interface :
+   - Sélection de 2-3 équipements à comparer
+   - Tableau comparatif côte à côte
+   - Sliders pour pondérer les critères
+
+2. Critères comparés :
+   - Prix / Performance / Garantie
+   - Disponibilité locale
+   - Coûts d'exploitation
+   - Conformité normes
+
+3. Résultat :
+   - Score global /100 par équipement
+   - Recommandation automatique
+   - Graphique radar de comparaison
+
+Base-toi sur : Manuels onduleurs, Compact NSX, JAM66D45
+
+Style : Interface épurée avec icônes
+```
+
+**Option E - Calculateur de Coûts Fournitures**
+```
+Crée un calculateur intelligent pour optimiser les achats.
+
+FONCTIONNALITÉS :
+1. Import données :
+   - Upload fichier Excel fournitures
+   - Parsing automatique des colonnes
+
+2. Analyses :
+   - Top 10 articles les plus coûteux
+   - Détection doublons et incohérences
+   - Suggestions d'économies (regroupement, négociation)
+   - Prévisions budget annuel
+
+3. Export :
+   - Tableau optimisé (Excel)
+   - Liste priorisée des actions
+   - Graphiques (camembert coûts par catégorie)
+
+Base-toi sur : FOURNITURES DE BUREAU 2026 - Fatma Abdelmoula.xlsx
+
+Style : Interface type "data analytics"
+```
+
+**💡 Prompt type pour Canvas :**
+```
+[Choisis une option A, B, C, D ou E]
+
+Mode Canvas activé :
+
+1. Crée le code complet (HTML + CSS + JavaScript)
+2. Inclus des données d'exemple réalistes
+3. Ajoute des commentaires en français
+4. Rends l'interface responsive (mobile-friendly)
+5. Utilise des couleurs professionnelles (bleu : #0066CC)
+6. Ajoute des validations de formulaire
+7. Inclus des messages d'erreur clairs
+
+Livrables :
+- Fichier HTML standalone (tout-en-un)
+- Instructions d'utilisation
+- Captures d'écran des fonctionnalités
+```
+
+**✅ Vérification :**
+- [ ] Interface fonctionnelle et intuitive
+- [ ] Calculs corrects basés sur données réelles
+- [ ] Design professionnel et responsive
+- [ ] Code commenté et compréhensible
+- [ ] Exportation/sauvegarde des résultats possible
+
+---
+
 ## 🎓 Récapitulatif des Exercices par Profil
 
 | Profil | Exercices recommandés | Fichiers à utiliser |
 |--------|------------------------|---------------------|
-| **Technicien / SAV** | Ex. 2, 5, 6 | Manuel SG125CX, Rapport SAV, ODP SAV |
-| **Bureau d’études** | Ex. 1, 3, 4, 8, 12 | Analyse fonctionnelle, Manuels onduleurs, JAM66D45, Compact NSX |
-| **Monitoring / Data** | Ex. 7 | Dataset PV |
-| **Chef projet / PMO** | Ex. 10, 11 | Rapport avancement, Planning PMBOK |
+| **Technicien / SAV** | Ex. 2, 5, 6, 15-B | Manuel SG125CX, Rapport SAV, ODP SAV |
+| **Bureau d'études** | Ex. 1, 3, 4, 8, 12, 15-A/D | Analyse fonctionnelle, Manuels onduleurs, JAM66D45, Compact NSX |
+| **Monitoring / Data** | Ex. 7, 15-A | Dataset PV |
+| **Chef projet / PMO** | Ex. 10, 11, 15-C | Rapport avancement, Planning PMBOK |
 | **Télécom / Chiffrage** | Ex. 9 | Specs télécom T2 |
-| **Admin / Achats** | Ex. 13 | Fournitures bureau |
+| **Admin / Achats** | Ex. 13, 15-E | Fournitures bureau |
 | **Production / BOM** | Ex. 14 | BOMPRN |
 
 ---
