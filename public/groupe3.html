@@ -5,61 +5,422 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Groupe 3 - Études / SAV / Support</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-        .container { max-width: 900px; margin: 0 auto; }
-        h1 { color: #1a73e8; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f5f5; color: #333; line-height: 1.6; }
+        .back { background: #f0f0f0; padding: 12px 15px; border-radius: 5px; display: inline-block; margin-bottom: 25px; }
+        .back a { color: #1a73e8; text-decoration: none; font-weight: 500; }
+        .back a:hover { text-decoration: underline; }
+        header { background: #1a73e8; color: white; padding: 30px 0; margin-bottom: 30px; }
+        header h1 { margin: 0; font-size: 2.5em; }
+        header p { margin: 5px 0 0 0; font-size: 1.1em; opacity: 0.95; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px 40px; }
+        h2 { color: #1a73e8; margin: 35px 0 20px 0; font-size: 1.8em; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; }
+        h3 { color: #2c3e50; margin: 25px 0 15px 0; font-size: 1.3em; }
+        .section { margin: 30px 0; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .exercise { margin: 20px 0; padding: 20px; border-left: 4px solid #1a73e8; background: #f9f9f9; }
+        .exercise h3 { margin-top: 0; color: #1a73e8; }
+        .code-block { background: #f4f4f4; border: 1px solid #ddd; border-radius: 4px; padding: 15px; margin: 15px 0; font-family: 'Courier New', monospace; font-size: 0.9em; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; }
+        .success { background: #e8f5e9; border: 1px solid #4caf50; border-radius: 4px; padding: 15px; margin: 15px 0; }
+        .success strong { color: #2e7d32; }
+        .checklist { list-style: none; padding: 0; }
+        .checklist li { padding: 8px 0; padding-left: 30px; position: relative; }
+        .checklist li:before { content: "☐"; position: absolute; left: 0; font-weight: bold; color: #1a73e8; }
+        ul { margin: 15px 0; padding-left: 30px; }
+        li { margin: 8px 0; }
         a { color: #1a73e8; text-decoration: none; }
         a:hover { text-decoration: underline; }
-        .back { background: #f0f0f0; padding: 10px; border-radius: 5px; display: inline-block; margin-bottom: 20px; }
+        strong { font-weight: 600; }
+        .drive-link { background: #e3f2fd; border-left: 4px solid #1a73e8; padding: 15px; margin: 20px 0; }
     </style>
 </head>
 <body>
+
+<div class="back"><a href="/">← Retour à l'accueil</a></div>
+
+<header>
+    <div class="container">
+        <h1>🚀 GROUPE 3 : ÉTUDES / SAV</h1>
+        <p>Formation IA Générative - Gemini Pro pour Compto</p>
+    </div>
+</header>
+
 <div class="container">
-    <div class="back"><a href="/">← Retour à l'accueil</a></div>
-    <h1>🟧 Groupe 3 - Études / SAV / Support Client</h1>
-    
-    <p style="padding: 15px; background: #e3f2fd; border-left: 4px solid #1a73e8; margin: 20px 0;">
-        <strong>📥 Lien Drive :</strong> <a href="https://shorturl.at/JV2Bz" target="_blank">shorturl.at/JV2Bz</a> (téléchargement des fichiers nécessaires)
-    </p>
-    
-    <h2>📋 Participants & Fichiers de travail</h2>
-    <p>Voir tous les détails sur GitHub :</p>
-    <p><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/docs/GROUPE_3_ETUDES_SAV.md" target="_blank">
-        📄 Ouvrir le document complet sur GitHub →
-    </a></p>
 
-    <h2>📅 Calendrier</h2>
-    <ul>
-        <li><strong>Dates :</strong> 08/02 + 15/02</li>
-        <li><strong>Lieu :</strong> Ben Arous</li>
-        <li><strong>Participants :</strong> 18 personnes</li>
-        <li><strong>Durée :</strong> 6h total (2 séances × 3h)</li>
-    </ul>
+<div class="drive-link">
+    <strong>📥 Lien Drive :</strong> <a href="https://shorturl.at/JV2Bz" target="_blank" rel="noopener noreferrer">https://shorturl.at/JV2Bz</a> (téléchargement des fichiers nécessaires)
+</div>
 
-    <h2>💡 Cas d'Usage Principaux</h2>
-    <ul>
-        <li><strong>Rédiger Réponses Clients Qualifiées</strong> : 1h → 10 min (83% gain)</li>
-        <li><strong>Générer Rapports d'Études Détaillés</strong> : 3h → 20 min (89% gain)</li>
-        <li><strong>Classifier Tickets Support Automatiquement</strong> : 2h → 5 min (95% gain)</li>
-    </ul>
+<div class="section">
+<h2>💡 Les 4 Exercices Pratiques</h2>
 
-    <h2>📚 Documents à Consulter</h2>
-    <ul>
-        <li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/SUPPORT_FORMATION_GEMINI_COMPLET.md" target="_blank">Support Formation Complet</a></li>
-        <li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/CARNET_EXERCICES_PRATIQUES.md" target="_blank">Carnet d'Exercices Pratiques</a></li>
-        <li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/GUIDE_FORMATEUR.md" target="_blank">Guide Formateur</a></li>
-    </ul>
+<div class="exercise">
+<h3>✏️ Exercice 10 : Diagnostic Onduleur (Multimodal)</h3>
+<p><strong>Énoncé :</strong> Diagnostiquer anomalie équipement via photo + manuel</p>
+<p><strong>Fichiers :</strong></p>
+<ul>
+<li>Manuel : <code>EN-UM-SG125CX-P2-User-Manual-V12-202205 - Hamdi Jemi.pdf</code></li>
+<li>Photo : [Prendre screenshot ou photo équipement]</li>
+</ul>
+<p><strong>Scénario :</strong></p>
+<div class="code-block">SITUATION TERRAIN :
+- Site : Centrale PV Skhira
+- Équipement : Onduleur SG125CX
+- Problème : Code d'erreur "F02", LED rouge clignotante
+- Client : Appelé support (vous !)</div>
 
-    <h2>🔗 Ressources</h2>
-    <ul>
-        <li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto" target="_blank">Dépôt GitHub Complet</a></li>
-        <li><a href="https://gemini.google.com" target="_blank">Gemini Pro - Outil IA</a></li>
-    </ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis technicien SAV.
 
-    <p style="margin-top: 40px; padding: 20px; background: #f0f7ff; border-radius: 5px;">
-        <strong>📌 Note :</strong> Tous les détails complets, les exercices détaillés et les ressources sont disponibles sur le 
-        <a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/docs/GROUPE_3_ETUDES_SAV.md" target="_blank">document complet sur GitHub</a>.
-    </p>
+Problème terrain :
+- Onduleur SG125CX
+- Code erreur F02
+- LED rouge clignotante
+- Client signale : "Plus d'électricité depuis ce matin"
+
+Upload Manuel SG125CX :
+[Manuel uploadé]
+
+DIAGNOSTIC :
+1. Que signifie F02 ? (Cherche dans manuel)
+2. Causes probables (3-5 ordonnées par probabilité)
+3. Actions diagnostiques terrain (sans outil)
+4. Decision : Redémarrer / Remplacer / Expert ?
+5. Client message (1 phrase simple en français)
+
+Format : Rapport WHATSAPP-READY (on peut envoyer direct client)</div>
+
+<p><strong>Résultat Attendu :</strong></p>
+<div class="success">
+<div class="code-block">DIAGNOSTIC ONDULEUR SG125CX - CODE F02
+───────────────────────────────────────
+
+⚠️ CODE F02 = Perte de communication réseau (Grid Down)
+
+CAUSES PROBABLES (ordre) :
+1. 70% : Disjoncteur AC déclenché
+   → Vérifier position switch AC (ON/OFF)
+   
+2. 20% : Câble réseau débranché / endommagé
+   → Inspecter connectique RJ45
+   
+3. 10% : Défaut électronique interne
+   → Si câbles OK, problème électronique
+
+ACTIONS TERRAIN (No-Tool) :
+1. Vérifier disjoncteur AC (position ON)
+2. Regarder connectique RJ45 (câble branché ?)
+3. Attendre 2 min, puis redémarrer onduleur
+
+RÉSULTAT ATTENDU :
+→ Si câble OK + disjoncteur ON : LED verte = ✅ (Problème résolu)
+→ Si LED reste rouge : Appeler expert (prob. défaut électronique)
+
+CLIENT MESSAGE :
+"Bonjour, c'est probable un câble débranché ou disjoncteur
+déclenché. On va vérifier ça ensemble. Je vous rappelle
+dans 5 min. Merci ! 👍"</div>
+</div>
+
+<p><strong>✅ Vérification :</strong></p>
+<ul class="checklist">
+<li>Code erreur interprété correctement</li>
+<li>Causes listées par probabilité</li>
+<li>Actions terrain claires & simples</li>
+<li>Message client rassurant</li>
+</ul>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 11 : Analyse Comparative Équipements</h3>
+<p><strong>Énoncé :</strong> Choisir moteur/équipement pour application client</p>
+<p><strong>Fichiers :</strong></p>
+<ul>
+<li><code>JAM66D45 605-630 LB 30 Frame Standard Product Global_EN_20241105A - Nessrine Ben Nejma.pdf</code></li>
+<li><code>Manuel SUN2000</code> (si besoin comparaison hybride)</li>
+</ul>
+
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis ingénieur avant-vente.
+
+CLIENT demande : "Quel équipement choisir pour [Application] ?"
+
+J'ai documentation du produit candidat uploadée.
+
+ANALYSE :
+1. À quoi sert ce produit ? (Industrie, usage, puissance)
+2. Caractéristiques principales (puissance, dimensions, efficacité)
+3. Environnement applicatif (Température, humidity, protection)
+4. Normes de sécurité / conformité
+5. Coûts opérationnels (Consommation, maintenance)
+6. Point fort vs point faible
+7. Pour client type, je recommande : OUI / NON / AVEC RÉSERVES
+
+Format : Fiche synthétique 1 page (client-ready)</div>
+
+<p><strong>Résultat Attendu :</strong></p>
+<div class="success">
+<div class="code-block">FICHE TECHNIQUE - JAM66D45 MOTOR
+─────────────────────────────────
+
+APPLICATION : Moteur électrique triphasé à induction
+PUISSANCE : [kW] | VITESSE : [rpm] | RENDEMENT : [%]
+
+CARACTÉRISTIQUES CLÉS :
+├─ Tension : 400V triphasé
+├─ Protection : IP55 (résistant poussière & eau)
+├─ Température : -5 à +40°C
+├─ Montage : Bride standard
+└─ Garantie : 2 ans
+
+ENVIRONNEMENT :
+✅ Convient : Industrie, extérieur, conditions humides
+❌ Ne convient pas : Très haute température (>60°C)
+
+NORMES : IEC 60034-1, CE, RoHS
+
+COÛTS ANNUELS ESTIMÉS :
+- Électricité : [€]
+- Maintenance : [€]
+- Total TCO : [€]
+
+VERDICT : ✅ RECOMMANDÉ
+Raison : Bon rapport qualité/prix, robuste, support local
+
+PRIX INDICATIF : [EUR]</div>
+</div>
+
+<p><strong>✅ Vérification :</strong></p>
+<ul class="checklist">
+<li>Application bien comprise</li>
+<li>Specs extraites correctement</li>
+<li>Points forts/faibles identifiés</li>
+<li>Recommandation justifiée</li>
+</ul>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 12 : Rédaction Rapport SAV Complet</h3>
+<p><strong>Énoncé :</strong> Générer rapport professionnel d'intervention SAV</p>
+<p><strong>Contexte :</strong></p>
+<div class="code-block">INTERVENTION SAV :
+- Date : 18/01/2026
+- Site : Centrale Sfax
+- Équipement : Onduleur Huawei SUN2000-280KTL
+- Problème : Surchauffe + arrêt productif
+- Durée : 2.5 heures
+- Actions : Nettoyage ventilation, vérification capteurs
+- Résultat : Remise en route OK, Monitoring actif 24h</div>
+
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Tu es ingénieur SAV senior.
+
+INTERVENTION SAV à documenter :
+- Date : 18/01/2026
+- Site : Centrale Sfax
+- Équipement : Onduleur SUN2000-280KTL
+- Technicien : [Your Name]
+- Problème : Surchauffe détectée, arrêt productif 3 heures
+- Actions : Inspection & nettoyage ventilation + Vérif capteurs temp
+- Durée : 2h30
+- Résultat : Remise en route normal, monitoring 24h activé
+- Pièces changées : Aucune
+- Nouveau problème trouvé : Non
+
+GÉNÈRE RAPPORT SAV PROFESSIONNEL :
+
+Sections :
+1. En-tête (Compto logo, date, N° intervention, site)
+2. Résumé exécutif (3 lignes)
+3. Description problème (client words)
+4. Actions correctives détaillées
+5. Diagnostic technique
+6. Recommandations (Préventif ? Upgrade monitoring ?)
+7. Pièces de rechange (si applicable)
+8. Prochaine maintenance préventive (date)
+9. Signature + Cachet
+
+Tone : Professionnel, rassurant, clair
+Format : Prêt à envoyer par email + archiver
+
+Langue : Français (possible client français)</div>
+
+<p><strong>Résultat Attendu :</strong></p>
+<div class="success">
+<div class="code-block">────────────────────────────────────────────
+RAPPORT D'INTERVENTION SAV - Compto
+────────────────────────────────────────────
+
+EN-TÊTE :
+Centrale Sfax | 18/01/2026 | Intervention n° SAV-2026-0847
+Technicien : [Votre Nom]
+
+RÉSUMÉ EXÉCUTIF :
+Onduleur Huawei SUN2000-280KTL présentait surchauffe thermique
+(arrêt productif 3h). Cause identifiée : Ventilation obstruée.
+Solution appliquée : Nettoyage & Vérification. Équipement remis
+en route normal. Monitoring 24/7 activé.
+
+DESCRIPTION PROBLÈME :
+Client a signalé arrêt productif du 16/01 08:00 au 16/01 11:00.
+Alerte LED rouge "Surchauffe". Production zéro pendant période.
+Client préoccupé par continuité service.
+
+ACTIONS CORRECTIVES :
+1. Inspection visuelle onduleur (Boîtier + Ventilation)
+   → Constat : Grille ventilation obstruée poussière/feuilles
+   
+2. Nettoyage ventilation (Soufflerie, brosse douce)
+   → Résultat : Passage d'air rétabli
+   
+3. Vérification capteurs température
+   → Test électrique OK, valeurs cohérentes
+
+4. Redémarrage progressif onduleur
+   → Initialisation normale
+   → Production reprise à 100% 12 min après restart
+
+5. Activation monitoring 24/7 (Huawei iManager)
+   → Alertes temps réel vers équipe SAV
+
+DIAGNOSTIC :
+Surchauffe due à ventilation insuffisante. Cause racine = 
+Accumulation naturelle poussière/débris en zone côtière (sel).
+
+RECOMMANDATIONS :
+✅ Maintenance préventive mensuelle (Nettoyage ventilation)
+✅ Considérer écran anti-poussière pour climat côtier
+✅ Monitoring continu (Huawei iManager déjà actif)
+
+PIÈCES DE RECHANGE : Aucune (Nettoyage suffisant)
+
+PROCHAINE MAINTENANCE PRÉVENTIVE :
+Inspection complète + Nettoyage : 18/02/2026 (prévoir 2h)
+
+Travaux effectués sans frais additionnel (maintenance incluse).
+
+────────────────────────────────────────
+Signature & Cachet Compto</div>
+</div>
+
+<p><strong>✅ Vérification :</strong></p>
+<ul class="checklist">
+<li>Rapport structuré et professionnel</li>
+<li>Diagnose claire</li>
+<li>Actions détaillées</li>
+<li>Recommandations utiles</li>
+<li>Prêt pour client + Archivage</li>
+</ul>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 13 : Comparaison Spécifications Techniques Multi-PDFs</h3>
+<p><strong>Énoncé :</strong> Analyser et comparer 3 manuels techniques pour décision client</p>
+<p><strong>Fichiers :</strong></p>
+<ul>
+<li><code>Manuel d_utilisation, série SUN2000-(250KTL, 280KTL, 300KTL, 330KTL) - Hiba Mezzi.pdf</code></li>
+<li><code>EN-UM-SG125CX-P2-User-Manual - Hamdi Jemi.pdf</code></li>
+<li><code>JAM66D45 Motor Spec - Nessrine Ben Nejma.pdf</code></li>
+</ul>
+
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis ingénieur études.
+
+CLIENT question : "Je dois choisir équipement pour mon installation.
+Quelle est la meilleure option ?"
+
+Fichiers uploadés :
+1. Huawei SUN2000 (onduleur PV)
+2. Sungrow SG125CX (onduleur PV alt)
+3. JAM Motor (stockage énergie)
+
+ANALYSE COMPARATIVE :
+
+Critères (pondérés) :
+┌─────────────────────┬───────┐
+│ Rendement / Effica. │ 30%   │
+│ Robustesse/Durée    │ 25%   │
+│ Prix / m²           │ 20%   │
+│ Garantie            │ 15%   │
+│ Support local       │ 10%   │
+└─────────────────────┴───────┘
+
+Pour chaque option :
+- Score 0-100
+- Points forts (2-3)
+- Points faibles (1-2)
+
+RÉSULTAT FINAL :
+- Tableau comparatif
+- Scores numériques
+- Recommandation + Justification
+- Coûts estimés TLC (Total Life Cost)
+
+Format : 1-2 pages, prêt pour réunion client</div>
+
+<p><strong>Résultat Attendu :</strong></p>
+<div class="success">
+<div class="code-block">ÉTUDE COMPARATIVE - CHOIX ÉQUIPEMENTS
+──────────────────────────────────────
+
+TABLEAU SYNTHÉTIQUE :
+┌──────────────────┬──────────────┬──────────────┬──────────┐
+│ Critère (Poids)  │ SUN2000 (30%)│ SG125CX (25%)│ JAM Motor│
+├──────────────────┼──────────────┼──────────────┼──────────┤
+│ Rendement        │ 98.6%        │ 98.2%        │ 96%      │
+│ Robustesse       │ ⭐⭐⭐⭐⭐   │ ⭐⭐⭐⭐   │ ⭐⭐⭐⭐  │
+│ Prix (EUR/kW)    │ 850          │ 820          │ -        │
+│ Garantie         │ 5 ans        │ 5 ans        │ 2 ans    │
+│ Support Tunisie  │ Excellent    │ Bon          │ Moyen    │
+└──────────────────┴──────────────┴──────────────┴──────────┘
+
+SCORES FINAUX :
+SUN2000 : 88/100 ⭐ RECOMMANDÉ
+SG125CX : 84/100
+JAM Motor : 72/100
+
+RECOMMANDATION :
+👉 SUN2000-280KTL (Huawei)
+
+JUSTIFICATION :
+1. Meilleur rendement (98.6%) = +2% productible
+2. Support français + Tunisie (important)
+3. Réputation excellente zone côtière
+4. Coût additionnel marginal vs gain long-terme
+
+COÛTS TLC (25 ans, 500 kWc) :
+├─ SUN2000 : 450 000 EUR (installation + opération + garantie)
+├─ SG125CX : 455 000 EUR
+└─ → Difference : SUN2000 saving 5 000 EUR sur 25 ans
+
+IMPLÉMENTATION :
+- Installer immédiatement (délai 6 sem)
+- Monitoring Huawei iManager inclus
+- Contrat maintenance Compto 2 ans</div>
+</div>
+
+<p><strong>✅ Vérification :</strong></p>
+<ul class="checklist">
+<li>Critères évalués objectivement</li>
+<li>Scores comparables</li>
+<li>Recommandation justifiée</li>
+<li>Coûts long-terme analysés</li>
+</ul>
+</div>
+
+</div>
+
+<div class="section">
+<h2>🔗 Ressources</h2>
+<ul>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/docs/GROUPE_3_ETUDES_SAV.md" target="_blank">📄 Document complet sur GitHub</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/SUPPORT_FORMATION_GEMINI_COMPLET.md" target="_blank">Support Formation Complet</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/CARNET_EXERCICES_PRATIQUES.md" target="_blank">Carnet d'Exercices Pratiques</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/GUIDE_FORMATEUR.md" target="_blank">Guide Formateur</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto" target="_blank">Dépôt GitHub Complet</a></li>
+<li><a href="https://gemini.google.com" target="_blank">Gemini Pro - Outil IA</a></li>
+</ul>
+</div>
+
 </div>
 </body>
 </html>
