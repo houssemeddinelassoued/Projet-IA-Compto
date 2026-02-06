@@ -31,14 +31,13 @@
 
 ---
 
-## 💡 Les 14 Exercices Pratiques
+## 💡 Les Exercices Pratiques
 
 ### ✏️ Exercice 1 : Votre Première Requête Simple
 **Énoncé :** Analyser rapidement un document technique et extraire l’essentiel
 
 **Fichiers suggérés :**
 - `Analyse fonctionnelle rev 1 11 10 2023 - Bechir MSAADI.pdf`
-- `Brochure GI_Commerciale FR TN 004_compressed - Aymen Rabbouche.pdf`
 
 **Prompt :**
 ```
