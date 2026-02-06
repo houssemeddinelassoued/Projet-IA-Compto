@@ -1,60 +1,133 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Groupe 3 - Études / SAV / Support</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f5f5; color: #333; line-height: 1.6; }
-        .back { background: #f0f0f0; padding: 12px 15px; border-radius: 5px; display: inline-block; margin-bottom: 25px; }
-        .back a { color: #1a73e8; text-decoration: none; font-weight: 500; }
-        .back a:hover { text-decoration: underline; }
-        header { background: #1a73e8; color: white; padding: 30px 0; margin-bottom: 30px; }
-        header h1 { margin: 0; font-size: 2.5em; }
-        header p { margin: 5px 0 0 0; font-size: 1.1em; opacity: 0.95; }
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px 40px; }
-        h2 { color: #1a73e8; margin: 35px 0 20px 0; font-size: 1.8em; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; }
-        h3 { color: #2c3e50; margin: 25px 0 15px 0; font-size: 1.3em; }
-        .section { margin: 30px 0; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .exercise { margin: 20px 0; padding: 20px; border-left: 4px solid #1a73e8; background: #f9f9f9; }
-        .exercise h3 { margin-top: 0; color: #1a73e8; }
-        .code-block { background: #f4f4f4; border: 1px solid #ddd; border-radius: 4px; padding: 15px; margin: 15px 0; font-family: 'Courier New', monospace; font-size: 0.9em; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; }
-        .success { background: #e8f5e9; border: 1px solid #4caf50; border-radius: 4px; padding: 15px; margin: 15px 0; }
-        .success strong { color: #2e7d32; }
-        .checklist { list-style: none; padding: 0; }
-        .checklist li { padding: 8px 0; padding-left: 30px; position: relative; }
-        .checklist li:before { content: "☐"; position: absolute; left: 0; font-weight: bold; color: #1a73e8; }
-        ul { margin: 15px 0; padding-left: 30px; }
-        li { margin: 8px 0; }
-        a { color: #1a73e8; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        strong { font-weight: 600; }
-        .drive-link { background: #e3f2fd; border-left: 4px solid #1a73e8; padding: 15px; margin: 20px 0; }
-    </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Groupe 3 - Études / SAV / Support</title>
+   <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f5f5; color: #333; line-height: 1.6; }
+      .back { background: #f0f0f0; padding: 12px 15px; border-radius: 5px; display: inline-block; margin-bottom: 25px; }
+      .back a { color: #1a73e8; text-decoration: none; font-weight: 500; }
+      .back a:hover { text-decoration: underline; }
+      header { background: #1a73e8; color: white; padding: 30px 0; margin-bottom: 30px; }
+      header h1 { margin: 0; font-size: 2.5em; }
+      header p { margin: 5px 0 0 0; font-size: 1.1em; opacity: 0.95; }
+      .container { max-width: 1100px; margin: 0 auto; padding: 0 20px 40px; }
+      h2 { color: #1a73e8; margin: 35px 0 20px 0; font-size: 1.8em; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; }
+      h3 { color: #2c3e50; margin: 25px 0 15px 0; font-size: 1.3em; }
+      table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+      th { background: #1a73e8; color: white; padding: 15px; text-align: left; font-weight: 600; }
+      td { padding: 12px 15px; border-bottom: 1px solid #e0e0e0; }
+      tr:hover { background: #f9f9f9; }
+      .section { margin: 30px 0; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+      .exercise { margin: 20px 0; padding: 20px; border-left: 4px solid #1a73e8; background: #f9f9f9; }
+      .exercise h3 { margin-top: 0; color: #1a73e8; }
+      .code-block { background: #f4f4f4; border: 1px solid #ddd; border-radius: 4px; padding: 15px; margin: 15px 0; font-family: 'Courier New', monospace; font-size: 0.9em; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; }
+      .success { background: #e8f5e9; border: 1px solid #4caf50; border-radius: 4px; padding: 15px; margin: 15px 0; }
+      .success strong { color: #2e7d32; }
+      .checklist { list-style: none; padding: 0; }
+      .checklist li { padding: 8px 0; padding-left: 30px; position: relative; }
+      .checklist li:before { content: "☐"; position: absolute; left: 0; font-weight: bold; color: #1a73e8; }
+      .profile-table { width: 100%; }
+      ul { margin: 15px 0; padding-left: 30px; }
+      li { margin: 8px 0; }
+      a { color: #1a73e8; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      strong { font-weight: 600; }
+      .drive-link { background: #e3f2fd; border-left: 4px solid #1a73e8; padding: 15px; margin: 20px 0; }
+   </style>
 </head>
 <body>
 
 <div class="back"><a href="/">← Retour à l'accueil</a></div>
 
 <header>
-    <div class="container">
-        <h1>🚀 GROUPE 3 : ÉTUDES / SAV</h1>
-        <p>Formation IA Générative - Gemini Pro pour Compto</p>
-    </div>
+   <div class="container">
+      <h1>🚀 GROUPE 3 : ÉTUDES / SAV</h1>
+      <p>Formation IA Générative - Gemini Pro pour Compto</p>
+   </div>
 </header>
 
 <div class="container">
 
 <div class="drive-link">
-    <strong>📥 Lien Drive :</strong> <a href="https://shorturl.at/JV2Bz" target="_blank" rel="noopener noreferrer">https://shorturl.at/JV2Bz</a> (téléchargement des fichiers nécessaires)
+   <strong>📥 Lien Drive :</strong> <a href="https://shorturl.at/JV2Bz" target="_blank" rel="noopener noreferrer">https://shorturl.at/JV2Bz</a> (téléchargement des fichiers nécessaires)
 </div>
 
+<h1>📋 Participants & Fichiers de travail</h1>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Participant</th>
+<th>Email</th>
+<th>Fichier disponible</th>
+<th>Exercice(s) associé(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Jalel DHAOUADI</td><td>jalel.dhaouadi@compto-cie.com</td><td>-</td><td>Ex. 1</td></tr>
+<tr><td>2</td><td>Bechir MSAADI</td><td>bechir.msaadi@compto-cie.com</td><td>Analyse fonctionnelle rev 1 11 10 2023</td><td>Ex. 1, 8</td></tr>
+<tr><td>3</td><td>Walid MEZOUGHI</td><td>walid.mezoughi@compto-cie.com</td><td>-</td><td>Ex. 1</td></tr>
+<tr><td>4</td><td>Khaled Ben Salem</td><td>khaled.bensalem@compto-cer.com</td><td>-</td><td>Ex. 1</td></tr>
+<tr><td>5</td><td>Mehdi Dridi</td><td>mehdi.dridi@compto-cie.com</td><td>BOMPRN (6) - Mehdi Dridi.pdf</td><td>Ex. 14</td></tr>
+<tr><td>6</td><td>Nadia Ayari</td><td>nadia.ayari@compto-cer.com</td><td>-</td><td>Ex. 1</td></tr>
+<tr><td>7</td><td>Hamdi Jemi</td><td>hamdi.jemi@compto-cer.com</td><td>EN-UM-SG125CX-P2-User-Manual-V12-202205</td><td>Ex. 2, 3</td></tr>
+<tr><td>8</td><td>Mohamed Abdelmoumen</td><td>mohamed.abdelmoumen@compto-cer.com</td><td>DATASET PV SYST - Mohamed Abdelmoumen</td><td>Ex. 7</td></tr>
+<tr><td>9</td><td>Abdelmonaam OUESLATI</td><td>abdelmonaam.eloueslati@compto.com.tn</td><td>-</td><td>Ex. 13</td></tr>
+<tr><td>10</td><td>Amal SASSI</td><td>amal.sassi@compto-cie.com</td><td>-</td><td>Ex. 13</td></tr>
+<tr><td>11</td><td>Borhen HAMMAMI</td><td>borhen.hammami@compto.com.tn</td><td>-</td><td>Ex. 12</td></tr>
+<tr><td>12</td><td>Mahdi HAJRI</td><td>mahdi.hajri@compto-cie.com</td><td>-</td><td>Ex. 12</td></tr>
+<tr><td>13</td><td>Abdessattar ELMBARKI</td><td>abdessattar.elmbarki@compto-cie.com</td><td>Compact NSX_LV431545</td><td>Ex. 12</td></tr>
+<tr><td>14</td><td>Ahlem OMRI</td><td>ahlem.omri@compto-cie.com</td><td>-</td><td>Ex. 13</td></tr>
+<tr><td>15</td><td>Mahmoud REKIK</td><td>mahmoud.rekik@compto.com.tn</td><td>-</td><td>Ex. 1</td></tr>
+<tr><td>16</td><td>Mariem ZIEDI</td><td>sav-cie@compto-cie.com</td><td>ODP SAV POUR FORMATION</td><td>Ex. 6</td></tr>
+<tr><td>17</td><td>Miled AJILI</td><td>miled.ajili@compto-cie.com</td><td>RapportSAV intervention preventive</td><td>Ex. 5</td></tr>
+<tr><td>18</td><td>Sabri HMAIDI</td><td>grh@compto-cie.com</td><td>-</td><td>Ex. 1</td></tr>
+<tr><td>19</td><td>Fatma ABDELMOULA</td><td>fatma.abdelmoula@compto-cie.com</td><td>FOUNITURES DE BUREAU 2026</td><td>Ex. 13</td></tr>
+<tr><td>20</td><td>Aymen RABBOUCHE</td><td>it-cie@compto-cie.com</td><td>Brochure GI_Commerciale FR TN 004</td><td>Ex. 1</td></tr>
+</tbody>
+</table>
+
 <div class="section">
-<h2>💡 Les 4 Exercices Pratiques</h2>
+<h2>💡 Les 14 Exercices Pratiques</h2>
 
 <div class="exercise">
-<h3>✏️ Exercice 10 : Diagnostic Onduleur (Multimodal)</h3>
+<h3>✏️ Exercice 1 : Votre Première Requête Simple</h3>
+<p><strong>Énoncé :</strong> Analyser rapidement un document technique et extraire l’essentiel</p>
+<p><strong>Fichiers suggérés :</strong></p>
+<ul>
+<li><code>Analyse fonctionnelle rev 1 11 10 2023 - Bechir MSAADI.pdf</code></li>
+<li><code>Brochure GI_Commerciale FR TN 004_compressed - Aymen Rabbouche.pdf</code></li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis ingénieur chez Compto.
+
+Je viens de recevoir ce document technique (PDF uploadé).
+
+Analyse rapide demandée :
+1. Objet du document (en 1 phrase)
+2. 5 points techniques clés à retenir
+3. Risques / contraintes mentionnées
+4. Actions à prévoir pour l’équipe
+
+Format :
+- Résumé simple et clair
+- 5 bullets maximum
+- Prêt à partager au manager</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Résumé clair en moins d’1 minute</li>
+<li>5 points clés maximum</li>
+<li>Actions proposées</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 2 : Diagnostic Onduleur (Multimodal)</h3>
 <p><strong>Énoncé :</strong> Diagnostiquer anomalie équipement via photo + manuel</p>
 <p><strong>Fichiers :</strong></p>
 <ul>
@@ -88,40 +161,8 @@ DIAGNOSTIC :
 5. Client message (1 phrase simple en français)
 
 Format : Rapport WHATSAPP-READY (on peut envoyer direct client)</div>
-
-<p><strong>Résultat Attendu :</strong></p>
 <div class="success">
-<div class="code-block">DIAGNOSTIC ONDULEUR SG125CX - CODE F02
-───────────────────────────────────────
-
-⚠️ CODE F02 = Perte de communication réseau (Grid Down)
-
-CAUSES PROBABLES (ordre) :
-1. 70% : Disjoncteur AC déclenché
-   → Vérifier position switch AC (ON/OFF)
-   
-2. 20% : Câble réseau débranché / endommagé
-   → Inspecter connectique RJ45
-   
-3. 10% : Défaut électronique interne
-   → Si câbles OK, problème électronique
-
-ACTIONS TERRAIN (No-Tool) :
-1. Vérifier disjoncteur AC (position ON)
-2. Regarder connectique RJ45 (câble branché ?)
-3. Attendre 2 min, puis redémarrer onduleur
-
-RÉSULTAT ATTENDU :
-→ Si câble OK + disjoncteur ON : LED verte = ✅ (Problème résolu)
-→ Si LED reste rouge : Appeler expert (prob. défaut électronique)
-
-CLIENT MESSAGE :
-"Bonjour, c'est probable un câble débranché ou disjoncteur
-déclenché. On va vérifier ça ensemble. Je vous rappelle
-dans 5 min. Merci ! 👍"</div>
-</div>
-
-<p><strong>✅ Vérification :</strong></p>
+<strong>✅ Vérification :</strong>
 <ul class="checklist">
 <li>Code erreur interprété correctement</li>
 <li>Causes listées par probabilité</li>
@@ -129,22 +170,48 @@ dans 5 min. Merci ! 👍"</div>
 <li>Message client rassurant</li>
 </ul>
 </div>
+</div>
 
 <div class="exercise">
-<h3>✏️ Exercice 11 : Analyse Comparative Équipements</h3>
-<p><strong>Énoncé :</strong> Choisir moteur/équipement pour application client</p>
+<h3>✏️ Exercice 3 : Comparaison Onduleurs (Huawei vs Sungrow)</h3>
+<p><strong>Énoncé :</strong> Comparer deux onduleurs et recommander une option</p>
 <p><strong>Fichiers :</strong></p>
 <ul>
-<li><code>JAM66D45 605-630 LB 30 Frame Standard Product Global_EN_20241105A - Nessrine Ben Nejma.pdf</code></li>
-<li><code>Manuel SUN2000</code> (si besoin comparaison hybride)</li>
+<li><code>Manuel d_utilisation, série SUN2000-(250KTL, 280KTL, 300KTL, 330KTL) (2) - Hiba Mezzi.pdf</code></li>
+<li><code>EN-UM-SG125CX-P2-User-Manual-V12-202205 - Hamdi Jemi.pdf</code></li>
 </ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis ingénieur études.
 
+COMPARE ces 2 onduleurs pour un projet PV côtier :
+1. Rendement / efficience
+2. Robustesse / IP
+3. Garantie
+4. Conditions environnementales
+5. Support local
+
+Score 0-100 + Recommandation justifiée (3 points max).</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Critères comparés</li>
+<li>Scores numériques</li>
+<li>Recommandation claire</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 4 : Analyse Comparative Équipements</h3>
+<p><strong>Énoncé :</strong> Choisir un équipement pour application client</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>JAM66D45 605-630 LB 30 Frame Standard Product Global_EN_20241105A (11) - Nessrine Ben Nejma.pdf</code></li>
+</ul>
 <p><strong>Prompt :</strong></p>
 <div class="code-block">Je suis ingénieur avant-vente.
 
 CLIENT demande : "Quel équipement choisir pour [Application] ?"
-
-J'ai documentation du produit candidat uploadée.
 
 ANALYSE :
 1. À quoi sert ce produit ? (Industrie, usage, puissance)
@@ -156,40 +223,8 @@ ANALYSE :
 7. Pour client type, je recommande : OUI / NON / AVEC RÉSERVES
 
 Format : Fiche synthétique 1 page (client-ready)</div>
-
-<p><strong>Résultat Attendu :</strong></p>
 <div class="success">
-<div class="code-block">FICHE TECHNIQUE - JAM66D45 MOTOR
-─────────────────────────────────
-
-APPLICATION : Moteur électrique triphasé à induction
-PUISSANCE : [kW] | VITESSE : [rpm] | RENDEMENT : [%]
-
-CARACTÉRISTIQUES CLÉS :
-├─ Tension : 400V triphasé
-├─ Protection : IP55 (résistant poussière & eau)
-├─ Température : -5 à +40°C
-├─ Montage : Bride standard
-└─ Garantie : 2 ans
-
-ENVIRONNEMENT :
-✅ Convient : Industrie, extérieur, conditions humides
-❌ Ne convient pas : Très haute température (>60°C)
-
-NORMES : IEC 60034-1, CE, RoHS
-
-COÛTS ANNUELS ESTIMÉS :
-- Électricité : [€]
-- Maintenance : [€]
-- Total TCO : [€]
-
-VERDICT : ✅ RECOMMANDÉ
-Raison : Bon rapport qualité/prix, robuste, support local
-
-PRIX INDICATIF : [EUR]</div>
-</div>
-
-<p><strong>✅ Vérification :</strong></p>
+<strong>✅ Vérification :</strong>
 <ul class="checklist">
 <li>Application bien comprise</li>
 <li>Specs extraites correctement</li>
@@ -197,205 +232,351 @@ PRIX INDICATIF : [EUR]</div>
 <li>Recommandation justifiée</li>
 </ul>
 </div>
+</div>
 
 <div class="exercise">
-<h3>✏️ Exercice 12 : Rédaction Rapport SAV Complet</h3>
-<p><strong>Énoncé :</strong> Générer rapport professionnel d'intervention SAV</p>
-<p><strong>Contexte :</strong></p>
-<div class="code-block">INTERVENTION SAV :
-- Date : 18/01/2026
-- Site : Centrale Sfax
-- Équipement : Onduleur Huawei SUN2000-280KTL
-- Problème : Surchauffe + arrêt productif
-- Durée : 2.5 heures
-- Actions : Nettoyage ventilation, vérification capteurs
-- Résultat : Remise en route OK, Monitoring actif 24h</div>
-
+<h3>✏️ Exercice 5 : Rédaction Rapport SAV Complet</h3>
+<p><strong>Énoncé :</strong> Générer rapport professionnel d’intervention SAV</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>RapportSAV intervention preventive Chokri Hammouda P06-F03vf - Miled Ajili.pdf</code></li>
+</ul>
 <p><strong>Prompt :</strong></p>
 <div class="code-block">Tu es ingénieur SAV senior.
 
-INTERVENTION SAV à documenter :
-- Date : 18/01/2026
-- Site : Centrale Sfax
-- Équipement : Onduleur SUN2000-280KTL
-- Technicien : [Your Name]
-- Problème : Surchauffe détectée, arrêt productif 3 heures
-- Actions : Inspection & nettoyage ventilation + Vérif capteurs temp
-- Durée : 2h30
-- Résultat : Remise en route normal, monitoring 24h activé
-- Pièces changées : Aucune
-- Nouveau problème trouvé : Non
+Résume le rapport SAV fourni :
+1. Contexte & cause racine
+2. Actions correctives
+3. Résultat et statut final
+4. Recommandations prévention
+5. Prochaine maintenance suggérée
 
-GÉNÈRE RAPPORT SAV PROFESSIONNEL :
-
-Sections :
-1. En-tête (Compto logo, date, N° intervention, site)
-2. Résumé exécutif (3 lignes)
-3. Description problème (client words)
-4. Actions correctives détaillées
-5. Diagnostic technique
-6. Recommandations (Préventif ? Upgrade monitoring ?)
-7. Pièces de rechange (si applicable)
-8. Prochaine maintenance préventive (date)
-9. Signature + Cachet
-
-Tone : Professionnel, rassurant, clair
-Format : Prêt à envoyer par email + archiver
-
-Langue : Français (possible client français)</div>
-
-<p><strong>Résultat Attendu :</strong></p>
+Format : Rapport prêt à envoyer par email + archiver</div>
 <div class="success">
-<div class="code-block">────────────────────────────────────────────
-RAPPORT D'INTERVENTION SAV - Compto
-────────────────────────────────────────────
-
-EN-TÊTE :
-Centrale Sfax | 18/01/2026 | Intervention n° SAV-2026-0847
-Technicien : [Votre Nom]
-
-RÉSUMÉ EXÉCUTIF :
-Onduleur Huawei SUN2000-280KTL présentait surchauffe thermique
-(arrêt productif 3h). Cause identifiée : Ventilation obstruée.
-Solution appliquée : Nettoyage & Vérification. Équipement remis
-en route normal. Monitoring 24/7 activé.
-
-DESCRIPTION PROBLÈME :
-Client a signalé arrêt productif du 16/01 08:00 au 16/01 11:00.
-Alerte LED rouge "Surchauffe". Production zéro pendant période.
-Client préoccupé par continuité service.
-
-ACTIONS CORRECTIVES :
-1. Inspection visuelle onduleur (Boîtier + Ventilation)
-   → Constat : Grille ventilation obstruée poussière/feuilles
-   
-2. Nettoyage ventilation (Soufflerie, brosse douce)
-   → Résultat : Passage d'air rétabli
-   
-3. Vérification capteurs température
-   → Test électrique OK, valeurs cohérentes
-
-4. Redémarrage progressif onduleur
-   → Initialisation normale
-   → Production reprise à 100% 12 min après restart
-
-5. Activation monitoring 24/7 (Huawei iManager)
-   → Alertes temps réel vers équipe SAV
-
-DIAGNOSTIC :
-Surchauffe due à ventilation insuffisante. Cause racine = 
-Accumulation naturelle poussière/débris en zone côtière (sel).
-
-RECOMMANDATIONS :
-✅ Maintenance préventive mensuelle (Nettoyage ventilation)
-✅ Considérer écran anti-poussière pour climat côtier
-✅ Monitoring continu (Huawei iManager déjà actif)
-
-PIÈCES DE RECHANGE : Aucune (Nettoyage suffisant)
-
-PROCHAINE MAINTENANCE PRÉVENTIVE :
-Inspection complète + Nettoyage : 18/02/2026 (prévoir 2h)
-
-Travaux effectués sans frais additionnel (maintenance incluse).
-
-────────────────────────────────────────
-Signature & Cachet Compto</div>
-</div>
-
-<p><strong>✅ Vérification :</strong></p>
+<strong>✅ Vérification :</strong>
 <ul class="checklist">
 <li>Rapport structuré et professionnel</li>
-<li>Diagnose claire</li>
+<li>Diagnostic clair</li>
 <li>Actions détaillées</li>
 <li>Recommandations utiles</li>
-<li>Prêt pour client + Archivage</li>
 </ul>
+</div>
 </div>
 
 <div class="exercise">
-<h3>✏️ Exercice 13 : Comparaison Spécifications Techniques Multi-PDFs</h3>
-<p><strong>Énoncé :</strong> Analyser et comparer 3 manuels techniques pour décision client</p>
+<h3>✏️ Exercice 6 : Synthèse ODP SAV & Plan d’Intervention</h3>
+<p><strong>Énoncé :</strong> Transformer une présentation SAV en plan d’action</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>ODP SAV POUR FORMATION - Mariem Ziedi.pdf</code></li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis responsable SAV.
+
+À partir de l’ODP SAV :
+1. Résume les points clés (max 8 lignes)
+2. Liste 5 actions prioritaires
+3. Propose 3 KPI de suivi
+
+Format : Synthèse + plan d’action (bullet points)</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Synthèse concise</li>
+<li>Actions prioritaires claires</li>
+<li>KPI pertinents</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 7 : Dataset PV - Nettoyage & Analyse</h3>
+<p><strong>Énoncé :</strong> Analyser un dataset PV pour insights et anomalies</p>
 <p><strong>Fichiers :</strong></p>
 <ul>
-<li><code>Manuel d_utilisation, série SUN2000-(250KTL, 280KTL, 300KTL, 330KTL) - Hiba Mezzi.pdf</code></li>
-<li><code>EN-UM-SG125CX-P2-User-Manual - Hamdi Jemi.pdf</code></li>
-<li><code>JAM66D45 Motor Spec - Nessrine Ben Nejma.pdf</code></li>
+<li><code>DATASET PV SYST - Mohamed Abdelmoumen.xlsx</code></li>
+<li><code>DATASET PV SYST - Mohamed Abdelmoumen.csv</code></li>
 </ul>
-
 <p><strong>Prompt :</strong></p>
-<div class="code-block">Je suis ingénieur études.
+<div class="code-block">Je suis analyste données.
 
-CLIENT question : "Je dois choisir équipement pour mon installation.
-Quelle est la meilleure option ?"
+Fichier uploadé = Dataset PV.
 
-Fichiers uploadés :
-1. Huawei SUN2000 (onduleur PV)
-2. Sungrow SG125CX (onduleur PV alt)
-3. JAM Motor (stockage énergie)
+ANALYSE :
+1. Qu'est-ce que ce dataset (structure, variables) ?
+2. Combien de lignes / colonnes ?
+3. Données manquantes ? Doublons ?
+4. KPI principaux calculables ?
+5. 3 insights intéressants (performance, anomalies, tendances)
 
-ANALYSE COMPARATIVE :
-
-Critères (pondérés) :
-┌─────────────────────┬───────┐
-│ Rendement / Effica. │ 30%   │
-│ Robustesse/Durée    │ 25%   │
-│ Prix / m²           │ 20%   │
-│ Garantie            │ 15%   │
-│ Support local       │ 10%   │
-└─────────────────────┴───────┘
-
-Pour chaque option :
-- Score 0-100
-- Points forts (2-3)
-- Points faibles (1-2)
-
-RÉSULTAT FINAL :
-- Tableau comparatif
-- Scores numériques
-- Recommandation + Justification
-- Coûts estimés TLC (Total Life Cost)
-
-Format : 1-2 pages, prêt pour réunion client</div>
-
-<p><strong>Résultat Attendu :</strong></p>
+Format : Résumé exécutif + Recommandations</div>
 <div class="success">
-<div class="code-block">ÉTUDE COMPARATIVE - CHOIX ÉQUIPEMENTS
-──────────────────────────────────────
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Structure bien comprise</li>
+<li>Qualité données évaluée</li>
+<li>KPI pertinents identifiés</li>
+<li>Insights exploitables</li>
+</ul>
+</div>
+</div>
 
-TABLEAU SYNTHÉTIQUE :
-┌──────────────────┬──────────────┬──────────────┬──────────┐
-│ Critère (Poids)  │ SUN2000 (30%)│ SG125CX (25%)│ JAM Motor│
-├──────────────────┼──────────────┼──────────────┼──────────┤
-│ Rendement        │ 98.6%        │ 98.2%        │ 96%      │
-│ Robustesse       │ ⭐⭐⭐⭐⭐   │ ⭐⭐⭐⭐   │ ⭐⭐⭐⭐  │
-│ Prix (EUR/kW)    │ 850          │ 820          │ -        │
-│ Garantie         │ 5 ans        │ 5 ans        │ 2 ans    │
-│ Support Tunisie  │ Excellent    │ Bon          │ Moyen    │
-└──────────────────┴──────────────┴──────────────┴──────────┘
+<div class="exercise">
+<h3>✏️ Exercice 8 : Analyse Fonctionnelle & Exigences</h3>
+<p><strong>Énoncé :</strong> Extraire exigences techniques d’une analyse fonctionnelle</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>Analyse fonctionnelle rev 1 11 10 2023 - Bechir MSAADI.pdf</code></li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis responsable bureau d’études.
 
-SCORES FINAUX :
-SUN2000 : 88/100 ⭐ RECOMMANDÉ
-SG125CX : 84/100
-JAM Motor : 72/100
+Analyse le document et fournis :
+1. Objet du système (1 phrase)
+2. Fonctions principales
+3. Contraintes techniques / normes
+4. Interfaces clés
+5. Risques techniques à surveiller
 
-RECOMMANDATION :
-👉 SUN2000-280KTL (Huawei)
+Format : Tableau synthèse + 5 alertes</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Fonctions principales identifiées</li>
+<li>Contraintes extraites</li>
+<li>Risques listés</li>
+</ul>
+</div>
+</div>
 
-JUSTIFICATION :
-1. Meilleur rendement (98.6%) = +2% productible
-2. Support français + Tunisie (important)
-3. Réputation excellente zone côtière
-4. Coût additionnel marginal vs gain long-terme
+<div class="exercise">
+<h3>✏️ Exercice 9 : Spécifications Télécom - Extraction & Chiffrage</h3>
+<p><strong>Énoncé :</strong> Extraire spécifications complexes pour chiffrer une solution télécom</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>Attachment T2 TGP-AEI-GTPT-870-CI-SPE-0003 GTP-T Telecommunication & Security Systems Specification_ - Direction Projets.pdf</code></li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis chiffreur solutions télécom chez Compto.
 
-COÛTS TLC (25 ans, 500 kWc) :
-├─ SUN2000 : 450 000 EUR (installation + opération + garantie)
-├─ SG125CX : 455 000 EUR
-└─ → Difference : SUN2000 saving 5 000 EUR sur 25 ans
+UPLOAD = Spécifications client projet télécom.
 
-IMPLÉMENTATION :
-- Installer immédiatement (délai 6 sem)
-- Monitoring Huawei iManager inclus
-- Contrat maintenance Compto 2 ans</div>
+EXTRACTION :
+1. Équipements requis (détail complet)
+2. Quantités (par type d’équipement)
+3. Versions / Références exactes
+4. Services associés (installation, formation, support)
+5. Délais spécifiés
+6. Normes/Certifications exigées
+
+Format : Tableau chiffrage avec références fournisseur</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Équipements identifiés</li>
+<li>Quantités exactes</li>
+<li>Services listés</li>
+<li>Références incluses</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 10 : Reporting Avancement Projet</h3>
+<p><strong>Énoncé :</strong> Créer un rapport d’avancement à partir de données brutes</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>04 01 26 Rapport d_avancement des travaux N°4 - Almoez Jbeli.pdf</code></li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis directeur opérationnel.
+
+Fichier uploadé = données avancement projet.
+
+GÉNÈRE RAPPORT D'AVANCEMENT :
+1. Statut global (Vert/Orange/Rouge)
+2. % avancement physique et financier
+3. Retards critiques (max 3)
+4. Actions correctives recommandées
+5. Décisions à valider
+
+Format : 1 page max, prêt à envoyer au client</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Statut global clair</li>
+<li>Retards identifiés</li>
+<li>Actions correctives proposées</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 11 : Planning & Risques (PMO)</h3>
+<p><strong>Énoncé :</strong> Identifier risques et jalons dans un planning projet</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>PMBOK compliant project management (by Sensei Project Solutions) - Mohamed Ali Sakkar.mpp</code></li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis PMO.
+
+À partir du planning :
+1. Jalons clés
+2. Chemin critique
+3. Risques de retard
+4. Recommandations d’optimisation
+
+Format : Synthèse + tableau risques</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Jalons identifiés</li>
+<li>Risques listés</li>
+<li>Recommandations claires</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 12 : Analyse Matériel BT (Compact NSX)</h3>
+<p><strong>Énoncé :</strong> Extraire les spécifications techniques d’un équipement BT</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>Compact NSX_LV431545 - Abdessattar ELMBARKI.pdf</code></li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis chargé d’affaires BT.
+
+Résumé demandé :
+1. Référence exacte
+2. Caractéristiques électriques clés
+3. Conditions d’installation
+4. Normes et certifications
+5. Points de vigilance
+
+Format : Fiche technique synthétique</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Spécifications extraites</li>
+<li>Conditions d’installation mentionnées</li>
+<li>Points de vigilance listés</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 13 : Nettoyage Excel & Priorisation Achats</h3>
+<p><strong>Énoncé :</strong> Analyser un fichier Excel pour nettoyage et priorisation</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>FOUNITURES DE BUREAU 2026 - Fatma Abdelmoula.xlsx</code></li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Je suis assistante administrative.
+
+Fichier Excel = achats fournitures.
+
+ANALYSE :
+1. Doublons / incohérences
+2. Valeurs manquantes
+3. Top 10 articles par coût
+4. Propositions d’économies (3 actions)
+
+Format : Tableau + recommandations</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Doublons identifiés</li>
+<li>Top 10 extrait</li>
+<li>Recommandations utiles</li>
+</ul>
+</div>
+</div>
+
+<div class="exercise">
+<h3>✏️ Exercice 14 : Analyse BOM / Nomenclature</h3>
+<p><strong>Énoncé :</strong> Identifier les risques et incohérences dans une BOM</p>
+<p><strong>Fichier :</strong></p>
+<ul>
+<li><code>BOMPRN (6) - Mehdi Dridi.pdf</code></li>
+</ul>
+<p><strong>Prompt :</strong></p>
+<div class="code-block">Analyse cette nomenclature de production :
+1. Nombre de composants
+2. Pièces critiques (lead time long)
+3. Risques d’approvisionnement
+4. Actions de mitigation
+
+Format : Tableau synthèse + priorités</div>
+<div class="success">
+<strong>✅ Vérification :</strong>
+<ul class="checklist">
+<li>Composants comptés</li>
+<li>Risques identifiés</li>
+<li>Actions priorisées</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div class="section">
+<h2>🎓 Récapitulatif des Exercices par Profil</h2>
+<table class="profile-table">
+<thead>
+<tr>
+<th>Profil</th>
+<th>Exercices recommandés</th>
+<th>Fichiers à utiliser</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><strong>Technicien / SAV</strong></td><td>Ex. 2, 5, 6</td><td>Manuel SG125CX, Rapport SAV, ODP SAV</td></tr>
+<tr><td><strong>Bureau d’études</strong></td><td>Ex. 1, 3, 4, 8, 12</td><td>Analyse fonctionnelle, Manuels onduleurs, JAM66D45, Compact NSX</td></tr>
+<tr><td><strong>Monitoring / Data</strong></td><td>Ex. 7</td><td>Dataset PV</td></tr>
+<tr><td><strong>Chef projet / PMO</strong></td><td>Ex. 10, 11</td><td>Rapport avancement, Planning PMBOK</td></tr>
+<tr><td><strong>Télécom / Chiffrage</strong></td><td>Ex. 9</td><td>Specs télécom T2</td></tr>
+<tr><td><strong>Admin / Achats</strong></td><td>Ex. 13</td><td>Fournitures bureau</td></tr>
+<tr><td><strong>Production / BOM</strong></td><td>Ex. 14</td><td>BOMPRN</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>✅ Checklist Post-Session 1</h2>
+<p><strong>À faire dans la séance :</strong></p>
+<ul class="checklist">
+<li>Tester Gemini sur 1 de VOS fichiers personnels</li>
+<li>Identifier votre cas #1 (gain de temps le plus évident)</li>
+<li>Partager votre meilleur prompt avec le groupe</li>
+</ul>
+<p><strong>À faire en 1 semaine (Session 2) :</strong></p>
+<ul class="checklist">
+<li>3 utilisations minimum sur cas réels / participant</li>
+<li>Noter les prompts qui fonctionnent bien</li>
+<li>Montrer les résultats</li>
+<li>Préparer 1 question pour la session 2</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>📅 Informations Pratiques</h2>
+<h3>Sessions & Formateur</h3>
+<ul>
+<li><strong>Sessions :</strong> Samedi 07/02/2026 et Jeudi 12/02/2026</li>
+<li><strong>Lieu :</strong> Ben Arous</li>
+<li><strong>Formateur :</strong> Houssem Eddine Lassoued</li>
+<li><strong>Durée :</strong> 6 heures total (2 séances × 3h)</li>
+</ul>
+<h3>Ressources Complémentaires</h3>
+<ul>
+<li><a href="https://gemini.google.com" target="_blank">Gemini Pro - Outil IA</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/SUPPORT_FORMATION_GEMINI_COMPLET.md" target="_blank">Support Formation Complet</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/CARNET_EXERCICES_PRATIQUES.md" target="_blank">Carnet d'Exercices Pratiques</a></li>
+<li><a href="https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/GUIDE_FORMATEUR.md" target="_blank">Guide Formateur</a></li>
+</ul>
 </div>
 
 <p><strong>✅ Vérification :</strong></p>

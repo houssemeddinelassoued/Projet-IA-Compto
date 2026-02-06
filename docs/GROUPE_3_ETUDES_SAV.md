@@ -4,8 +4,68 @@
 
 ---
 
-## Exercice 10 : Diagnostic Onduleur (Multimodal)
+## 👥 Participants & Fichiers de travail
 
+| # | Participant | Email | Fichier disponible | Exercice(s) associé(s) |
+|---|-------------|-------|--------------------|------------------------|
+| 1 | Jalel DHAOUADI | jalel.dhaouadi@compto-cie.com | - | Ex. 1 |
+| 2 | Bechir MSAADI | bechir.msaadi@compto-cie.com | Analyse fonctionnelle rev 1 11 10 2023 - Bechir MSAADI.pdf | Ex. 1, 8 |
+| 3 | Walid MEZOUGHI | walid.mezoughi@compto-cie.com | - | Ex. 1 |
+| 4 | Khaled Ben Salem | khaled.bensalem@compto-cer.com | - | Ex. 1 |
+| 5 | Mehdi Dridi | mehdi.dridi@compto-cie.com | BOMPRN (6) - Mehdi Dridi.pdf | Ex. 14 |
+| 6 | Nadia Ayari | nadia.ayari@compto-cer.com | - | Ex. 1 |
+| 7 | Hamdi Jemi | hamdi.jemi@compto-cer.com | EN-UM-SG125CX-P2-User-Manual-V12-202205 - Hamdi Jemi.pdf | Ex. 2, 3 |
+| 8 | Mohamed Abdelmoumen | mohamed.abdelmoumen@compto-cer.com | DATASET PV SYST - Mohamed Abdelmoumen.xlsx / .csv | Ex. 7 |
+| 9 | Abdelmonaam OUESLATI | abdelmonaam.eloueslati@compto.com.tn | - | Ex. 13 |
+| 10 | Amal SASSI | amal.sassi@compto-cie.com | - | Ex. 13 |
+| 11 | Borhen HAMMAMI | borhen.hammami@compto.com.tn | - | Ex. 12 |
+| 12 | Mahdi HAJRI | mahdi.hajri@compto-cie.com | - | Ex. 12 |
+| 13 | Abdessattar ELMBARKI | abdessattar.elmbarki@compto-cie.com | Compact NSX_LV431545 - Abdessattar ELMBARKI.pdf | Ex. 12 |
+| 14 | Ahlem OMRI | ahlem.omri@compto-cie.com | - | Ex. 13 |
+| 15 | Mahmoud REKIK | mahmoud.rekik@compto.com.tn | - | Ex. 1 |
+| 16 | Mariem ZIEDI | sav-cie@compto-cie.com | ODP SAV POUR FORMATION - Mariem Ziedi.pdf | Ex. 6 |
+| 17 | Miled AJILI | miled.ajili@compto-cie.com | RapportSAV intervention preventive Chokri Hammouda P06-F03vf - Miled Ajili.pdf | Ex. 5 |
+| 18 | Sabri HMAIDI | grh@compto-cie.com | - | Ex. 1 |
+| 19 | Fatma ABDELMOULA | fatma.abdelmoula@compto-cie.com | FOUNITURES DE BUREAU 2026 - Fatma Abdelmoula.xlsx | Ex. 13 |
+| 20 | Aymen RABBOUCHE | it-cie@compto-cie.com | Brochure GI_Commerciale FR TN 004_compressed - Aymen Rabbouche.pdf | Ex. 1 |
+
+---
+
+## 💡 Les 14 Exercices Pratiques
+
+### ✏️ Exercice 1 : Votre Première Requête Simple
+**Énoncé :** Analyser rapidement un document technique et extraire l’essentiel
+
+**Fichiers suggérés :**
+- `Analyse fonctionnelle rev 1 11 10 2023 - Bechir MSAADI.pdf`
+- `Brochure GI_Commerciale FR TN 004_compressed - Aymen Rabbouche.pdf`
+
+**Prompt :**
+```
+Je suis ingénieur chez Compto.
+
+Je viens de recevoir ce document technique (PDF uploadé).
+
+Analyse rapide demandée :
+1. Objet du document (en 1 phrase)
+2. 5 points techniques clés à retenir
+3. Risques / contraintes mentionnées
+4. Actions à prévoir pour l’équipe
+
+Format :
+- Résumé simple et clair
+- 5 bullets maximum
+- Prêt à partager au manager
+```
+
+**✅ Vérification :**
+- [ ] Résumé clair en moins d’1 minute
+- [ ] 5 points clés maximum
+- [ ] Actions proposées
+
+---
+
+### ✏️ Exercice 2 : Diagnostic Onduleur (Multimodal)
 **Énoncé :** Diagnostiquer anomalie équipement via photo + manuel
 
 **Fichiers :**
@@ -44,38 +104,6 @@ DIAGNOSTIC :
 Format : Rapport WHATSAPP-READY (on peut envoyer direct client)
 ```
 
-**Résultat Attendu :**
-```
-DIAGNOSTIC ONDULEUR SG125CX - CODE F02
-───────────────────────────────────────
-
-⚠️ CODE F02 = Perte de communication réseau (Grid Down)
-
-CAUSES PROBABLES (ordre) :
-1. 70% : Disjoncteur AC déclenché
-   → Vérifier position switch AC (ON/OFF)
-   
-2. 20% : Câble réseau débranché / endommagé
-   → Inspecter connectique RJ45
-   
-3. 10% : Défaut électronique interne
-   → Si câbles OK, problème électronique
-
-ACTIONS TERRAIN (No-Tool) :
-1. Vérifier disjoncteur AC (position ON)
-2. Regarder connectique RJ45 (câble branché ?)
-3. Attendre 2 min, puis redémarrer onduleur
-
-RÉSULTAT ATTENDU :
-→ Si câble OK + disjoncteur ON : LED verte = ✅ (Problème résolu)
-→ Si LED reste rouge : Appeler expert (prob. défaut électronique)
-
-CLIENT MESSAGE :
-"Bonjour, c'est probable un câble débranché ou disjoncteur
-déclenché. On va vérifier ça ensemble. Je vous rappelle
-dans 5 min. Merci ! 👍"
-```
-
 **✅ Vérification :**
 - [ ] Code erreur interprété correctement
 - [ ] Causes listées par probabilité
@@ -84,21 +112,45 @@ dans 5 min. Merci ! 👍"
 
 ---
 
-## Exercice 11 : Analyse Comparative Équipements
-
-**Énoncé :** Choisir moteur/équipement pour application client
+### ✏️ Exercice 3 : Comparaison Onduleurs (Huawei vs Sungrow)
+**Énoncé :** Comparer deux onduleurs et recommander une option
 
 **Fichiers :**
-- `JAM66D45 605-630 LB 30 Frame Standard Product Global_EN_20241105A - Nessrine Ben Nejma.pdf`
-- `Manuel SUN2000` (si besoin comparaison hybride)
+- `Manuel d_utilisation, série SUN2000-(250KTL, 280KTL, 300KTL, 330KTL) (2) - Hiba Mezzi.pdf`
+- `EN-UM-SG125CX-P2-User-Manual-V12-202205 - Hamdi Jemi.pdf`
+
+**Prompt :**
+```
+Je suis ingénieur études.
+
+COMPARE ces 2 onduleurs pour un projet PV côtier :
+1. Rendement / efficience
+2. Robustesse / IP
+3. Garantie
+4. Conditions environnementales
+5. Support local
+
+Score 0-100 + Recommandation justifiée (3 points max).
+```
+
+**✅ Vérification :**
+- [ ] Critères comparés
+- [ ] Scores numériques
+- [ ] Recommandation claire
+
+---
+
+### ✏️ Exercice 4 : Analyse Comparative Équipements
+**Énoncé :** Choisir un équipement pour application client
+
+**Fichier :**
+- `JAM66D45 605-630 LB 30 Frame Standard Product Global_EN_20241105A (11) - Nessrine Ben Nejma.pdf`
 
 **Prompt :**
 ```
 Je suis ingénieur avant-vente.
 
 CLIENT demande : "Quel équipement choisir pour [Application] ?"
-
-J'ai documentation du produit candidat uploadée.
 
 ANALYSE :
 1. À quoi sert ce produit ? (Industrie, usage, puissance)
@@ -112,38 +164,6 @@ ANALYSE :
 Format : Fiche synthétique 1 page (client-ready)
 ```
 
-**Résultat Attendu :**
-```
-FICHE TECHNIQUE - JAM66D45 MOTOR
-─────────────────────────────────
-
-APPLICATION : Moteur électrique triphasé à induction
-PUISSANCE : [kW] | VITESSE : [rpm] | RENDEMENT : [%]
-
-CARACTÉRISTIQUES CLÉS :
-├─ Tension : 400V triphasé
-├─ Protection : IP55 (résistant poussière & eau)
-├─ Température : -5 à +40°C
-├─ Montage : Bride standard
-└─ Garantie : 2 ans
-
-ENVIRONNEMENT :
-✅ Convient : Industrie, extérieur, conditions humides
-❌ Ne convient pas : Très haute température (>60°C)
-
-NORMES : IEC 60034-1, CE, RoHS
-
-COÛTS ANNUELS ESTIMÉS :
-- Électricité : [€]
-- Maintenance : [€]
-- Total TCO : [€]
-
-VERDICT : ✅ RECOMMANDÉ
-Raison : Bon rapport qualité/prix, robuste, support local
-
-PRIX INDICATIF : [EUR]
-```
-
 **✅ Vérification :**
 - [ ] Application bien comprise
 - [ ] Specs extraites correctement
@@ -152,213 +172,321 @@ PRIX INDICATIF : [EUR]
 
 ---
 
-## Exercice 12 : Rédaction Rapport SAV Complet
+### ✏️ Exercice 5 : Rédaction Rapport SAV Complet
+**Énoncé :** Générer rapport professionnel d’intervention SAV
 
-**Énoncé :** Générer rapport professionnel d'intervention SAV
-
-**Contexte :**
-```
-INTERVENTION SAV :
-- Date : 18/01/2026
-- Site : Centrale Sfax
-- Équipement : Onduleur Huawei SUN2000-280KTL
-- Problème : Surchauffe + arrêt productif
-- Durée : 2.5 heures
-- Actions : Nettoyage ventilation, vérification capteurs
-- Résultat : Remise en route OK, Monitoring actif 24h
-```
+**Fichier :**
+- `RapportSAV intervention preventive Chokri Hammouda P06-F03vf - Miled Ajili.pdf`
 
 **Prompt :**
 ```
 Tu es ingénieur SAV senior.
 
-INTERVENTION SAV à documenter :
-- Date : 18/01/2026
-- Site : Centrale Sfax
-- Équipement : Onduleur SUN2000-280KTL
-- Technicien : [Your Name]
-- Problème : Surchauffe détectée, arrêt productif 3 heures
-- Actions : Inspection & nettoyage ventilation + Vérif capteurs temp
-- Durée : 2h30
-- Résultat : Remise en route normal, monitoring 24h activé
-- Pièces changées : Aucune
-- Nouveau problème trouvé : Non
+Résume le rapport SAV fourni :
+1. Contexte & cause racine
+2. Actions correctives
+3. Résultat et statut final
+4. Recommandations prévention
+5. Prochaine maintenance suggérée
 
-GÉNÈRE RAPPORT SAV PROFESSIONNEL :
-
-Sections :
-1. En-tête (Compto logo, date, N° intervention, site)
-2. Résumé exécutif (3 lignes)
-3. Description problème (client words)
-4. Actions correctives détaillées
-5. Diagnostic technique
-6. Recommandations (Préventif ? Upgrade monitoring ?)
-7. Pièces de rechange (si applicable)
-8. Prochaine maintenance préventive (date)
-9. Signature + Cachet
-
-Tone : Professionnel, rassurant, clair
-Format : Prêt à envoyer par email + archiver
-
-Langue : Français (possible client français)
-```
-
-**Résultat Attendu :**
-```
-────────────────────────────────────────────
-RAPPORT D'INTERVENTION SAV - Compto
-────────────────────────────────────────────
-
-EN-TÊTE :
-Centrale Sfax | 18/01/2026 | Intervention n° SAV-2026-0847
-Technicien : [Votre Nom]
-
-RÉSUMÉ EXÉCUTIF :
-Onduleur Huawei SUN2000-280KTL présentait surchauffe thermique
-(arrêt productif 3h). Cause identifiée : Ventilation obstruée.
-Solution appliquée : Nettoyage & Vérification. Équipement remis
-en route normal. Monitoring 24/7 activé.
-
-DESCRIPTION PROBLÈME :
-Client a signalé arrêt productif du 16/01 08:00 au 16/01 11:00.
-Alerte LED rouge "Surchauffe". Production zéro pendant période.
-Client préoccupé par continuité service.
-
-ACTIONS CORRECTIVES :
-1. Inspection visuelle onduleur (Boîtier + Ventilation)
-   → Constat : Grille ventilation obstruée poussière/feuilles
-   
-2. Nettoyage ventilation (Soufflerie, brosse douce)
-   → Résultat : Passage d'air rétabli
-   
-3. Vérification capteurs température
-   → Test électrique OK, valeurs cohérentes
-
-4. Redémarrage progressif onduleur
-   → Initialisation normale
-   → Production reprise à 100% 12 min après restart
-
-5. Activation monitoring 24/7 (Huawei iManager)
-   → Alertes temps réel vers équipe SAV
-
-DIAGNOSTIC :
-Surchauffe due à ventilation insuffisante. Cause racine = 
-Accumulation naturelle poussière/débris en zone côtière (sel).
-
-RECOMMANDATIONS :
-✅ Maintenance préventive mensuelle (Nettoyage ventilation)
-✅ Considérer écran anti-poussière pour climat côtier
-✅ Monitoring continu (Huawei iManager déjà actif)
-
-PIÈCES DE RECHANGE : Aucune (Nettoyage suffisant)
-
-PROCHAINE MAINTENANCE PRÉVENTIVE :
-Inspection complète + Nettoyage : 18/02/2026 (prévoir 2h)
-
-Travaux effectués sans frais additionnel (maintenance incluse).
-
-────────────────────────────────────────
-Signature & Cachet Compto
+Format : Rapport prêt à envoyer par email + archiver
 ```
 
 **✅ Vérification :**
 - [ ] Rapport structuré et professionnel
-- [ ] Diagnose claire
+- [ ] Diagnostic clair
 - [ ] Actions détaillées
 - [ ] Recommandations utiles
-- [ ] Prêt pour client + Archivage
 
 ---
 
-## Exercice 13 : Comparaison Spécifications Techniques Multi-PDFs
+### ✏️ Exercice 6 : Synthèse ODP SAV & Plan d’Intervention
+**Énoncé :** Transformer une présentation SAV en plan d’action
 
-**Énoncé :** Analyser et comparer 3 manuels techniques pour déc ision client
-
-**Fichiers :**
-- `Manuel d_utilisation, série SUN2000-(250KTL, 280KTL, 300KTL, 330KTL) - Hiba Mezzi.pdf`
-- `EN-UM-SG125CX-P2-User-Manual - Hamdi Jemi.pdf`
-- `JAM66D45 Motor Spec - Nessrine Ben Nejma.pdf`
+**Fichier :**
+- `ODP SAV POUR FORMATION - Mariem Ziedi.pdf`
 
 **Prompt :**
 ```
-Je suis ingénieur études  .
+Je suis responsable SAV.
 
-CLIENT question : "Je dois choisir équipement pour mon installation.
-Quelle est la meilleure option ?"
+À partir de l’ODP SAV :
+1. Résume les points clés (max 8 lignes)
+2. Liste 5 actions prioritaires
+3. Propose 3 KPI de suivi
 
-Fichiers uploadés :
-1. Huawei SUN2000 (onduleur PV)
-2. Sungrow SG125CX (onduleur PV alt)
-3. JAM Motor (stockage énergie)
-
-ANALYSE COMPARATIVE :
-
-Critères (pondérés) :
-┌─────────────────────┬───────┐
-│ Rendement / Effica. │ 30%   │
-│ Robustesse/Durée    │ 25%   │
-│ Prix / m²           │ 20%   │
-│ Garantie            │ 15%   │
-│ Support local       │ 10%   │
-└─────────────────────┴───────┘
-
-Pour chaque option :
-- Score 0-100
-- Points forts (2-3)
-- Points faibles (1-2)
-
-RÉSULTAT FINAL :
-- Tableau comparatif
-- Scores numériques
-- Recommandation + Justification
-- Coûts estimés TLC (Total Life Cost)
-
-Format : 1-2 pages, prêt pour réunion client
-```
-
-**Résultat Attendu :**
-```
-ÉTUDE COMPARATIVE - CHOIX ÉQUIPEMENTS
-──────────────────────────────────────
-
-TABLEAU SYNTHÉTIQUE :
-┌──────────────────┬──────────────┬──────────────┬──────────┐
-│ Critère (Poids)  │ SUN2000 (30%)│ SG125CX (25%)│ JAM Motor│
-├──────────────────┼──────────────┼──────────────┼──────────┤
-│ Rendement        │ 98.6%        │ 98.2%        │ 96%      │
-│ Robustesse       │ ⭐⭐⭐⭐⭐   │ ⭐⭐⭐⭐   │ ⭐⭐⭐⭐  │
-│ Prix (EUR/kW)    │ 850          │ 820          │ -        │
-│ Garantie         │ 5 ans        │ 5 ans        │ 2 ans    │
-│ Support Tunisie  │ Excellent    │ Bon          │ Moyen    │
-└──────────────────┴──────────────┴──────────────┴──────────┘
-
-SCORES FINAUX :
-SUN2000 : 88/100 ⭐ RECOMMANDÉ
-SG125CX : 84/100
-JAM Motor : 72/100
-
-RECOMMANDATION :
-👉 SUN2000-280KTL (Huawei)
-
-JUSTIFICATION :
-1. Meilleur rendement (98.6%) = +2% productible
-2. Support français + Tunisie (important)
-3. Réputation excellente zone côtière
-4. Coût additionnel marginal vs gain long-terme
-
-COÛTS TLC (25 ans, 500 kWc) :
-├─ SUN2000 : 450 000 EUR (installation + opération + garantie)
-├─ SG125CX : 455 000 EUR
-└─ → Difference : SUN2000 saving 5 000 EUR sur 25 ans
-
-IMPLÉMENTATION :
-- Installer immédiatement (délai 6 sem)
-- Monitoring Huawei iManager inclus
-- Contrat maintenance Compto 2 ans
+Format : Synthèse + plan d’action (bullet points)
 ```
 
 **✅ Vérification :**
-- [ ] Critères évalués objectivement
-- [ ] Scores comparables
-- [ ] Recommandation justifiée
-- [ ] Coûts long-terme analysés
+- [ ] Synthèse concise
+- [ ] Actions prioritaires claires
+- [ ] KPI pertinents
+
+---
+
+### ✏️ Exercice 7 : Dataset PV - Nettoyage & Analyse
+**Énoncé :** Analyser un dataset PV pour insights et anomalies
+
+**Fichiers :**
+- `DATASET PV SYST - Mohamed Abdelmoumen.xlsx`
+- `DATASET PV SYST - Mohamed Abdelmoumen.csv`
+
+**Prompt :**
+```
+Je suis analyste données.
+
+Fichier uploadé = Dataset PV.
+
+ANALYSE :
+1. Qu'est-ce que ce dataset (structure, variables) ?
+2. Combien de lignes / colonnes ?
+3. Données manquantes ? Doublons ?
+4. KPI principaux calculables ?
+5. 3 insights intéressants (performance, anomalies, tendances)
+
+Format : Résumé exécutif + Recommandations
+```
+
+**✅ Vérification :**
+- [ ] Structure bien comprise
+- [ ] Qualité données évaluée
+- [ ] KPI pertinents identifiés
+- [ ] Insights exploitables
+
+---
+
+### ✏️ Exercice 8 : Analyse Fonctionnelle & Exigences
+**Énoncé :** Extraire exigences techniques d’une analyse fonctionnelle
+
+**Fichier :**
+- `Analyse fonctionnelle rev 1 11 10 2023 - Bechir MSAADI.pdf`
+
+**Prompt :**
+```
+Je suis responsable bureau d’études.
+
+Analyse le document et fournis :
+1. Objet du système (1 phrase)
+2. Fonctions principales
+3. Contraintes techniques / normes
+4. Interfaces clés
+5. Risques techniques à surveiller
+
+Format : Tableau synthèse + 5 alertes
+```
+
+**✅ Vérification :**
+- [ ] Fonctions principales identifiées
+- [ ] Contraintes extraites
+- [ ] Risques listés
+
+---
+
+### ✏️ Exercice 9 : Spécifications Télécom - Extraction & Chiffrage
+**Énoncé :** Extraire spécifications complexes pour chiffrer une solution télécom
+
+**Fichier :**
+- `Attachment T2 TGP-AEI-GTPT-870-CI-SPE-0003 GTP-T Telecommunication & Security Systems Specification_ - Direction Projets.pdf`
+
+**Prompt :**
+```
+Je suis chiffreur solutions télécom chez Compto.
+
+UPLOAD = Spécifications client projet télécom.
+
+EXTRACTION :
+1. Équipements requis (détail complet)
+2. Quantités (par type d’équipement)
+3. Versions / Références exactes
+4. Services associés (installation, formation, support)
+5. Délais spécifiés
+6. Normes/Certifications exigées
+
+Format : Tableau chiffrage avec références fournisseur
+```
+
+**✅ Vérification :**
+- [ ] Équipements identifiés
+- [ ] Quantités exactes
+- [ ] Services listés
+- [ ] Références incluses
+
+---
+
+### ✏️ Exercice 10 : Reporting Avancement Projet
+**Énoncé :** Créer un rapport d’avancement à partir de données brutes
+
+**Fichier :**
+- `04 01 26 Rapport d_avancement des travaux N°4 - Almoez Jbeli.pdf`
+
+**Prompt :**
+```
+Je suis directeur opérationnel.
+
+Fichier uploadé = données avancement projet.
+
+GÉNÈRE RAPPORT D'AVANCEMENT :
+1. Statut global (Vert/Orange/Rouge)
+2. % avancement physique et financier
+3. Retards critiques (max 3)
+4. Actions correctives recommandées
+5. Décisions à valider
+
+Format : 1 page max, prêt à envoyer au client
+```
+
+**✅ Vérification :**
+- [ ] Statut global clair
+- [ ] Retards identifiés
+- [ ] Actions correctives proposées
+
+---
+
+### ✏️ Exercice 11 : Planning & Risques (PMO)
+**Énoncé :** Identifier risques et jalons dans un planning projet
+
+**Fichier :**
+- `PMBOK compliant project management (by Sensei Project Solutions) - Mohamed Ali Sakkar.mpp`
+
+**Prompt :**
+```
+Je suis PMO.
+
+À partir du planning :
+1. Jalons clés
+2. Chemin critique
+3. Risques de retard
+4. Recommandations d’optimisation
+
+Format : Synthèse + tableau risques
+```
+
+**✅ Vérification :**
+- [ ] Jalons identifiés
+- [ ] Risques listés
+- [ ] Recommandations claires
+
+---
+
+### ✏️ Exercice 12 : Analyse Matériel BT (Compact NSX)
+**Énoncé :** Extraire les spécifications techniques d’un équipement BT
+
+**Fichier :**
+- `Compact NSX_LV431545 - Abdessattar ELMBARKI.pdf`
+
+**Prompt :**
+```
+Je suis chargé d’affaires BT.
+
+Résumé demandé :
+1. Référence exacte
+2. Caractéristiques électriques clés
+3. Conditions d’installation
+4. Normes et certifications
+5. Points de vigilance
+
+Format : Fiche technique synthétique
+```
+
+**✅ Vérification :**
+- [ ] Spécifications extraites
+- [ ] Conditions d’installation mentionnées
+- [ ] Points de vigilance listés
+
+---
+
+### ✏️ Exercice 13 : Nettoyage Excel & Priorisation Achats
+**Énoncé :** Analyser un fichier Excel pour nettoyage et priorisation
+
+**Fichier :**
+- `FOUNITURES DE BUREAU 2026 - Fatma Abdelmoula.xlsx`
+
+**Prompt :**
+```
+Je suis assistante administrative.
+
+Fichier Excel = achats fournitures.
+
+ANALYSE :
+1. Doublons / incohérences
+2. Valeurs manquantes
+3. Top 10 articles par coût
+4. Propositions d’économies (3 actions)
+
+Format : Tableau + recommandations
+```
+
+**✅ Vérification :**
+- [ ] Doublons identifiés
+- [ ] Top 10 extrait
+- [ ] Recommandations utiles
+
+---
+
+### ✏️ Exercice 14 : Analyse BOM / Nomenclature
+**Énoncé :** Identifier les risques et incohérences dans une BOM
+
+**Fichier :**
+- `BOMPRN (6) - Mehdi Dridi.pdf`
+
+**Prompt :**
+```
+Analyse cette nomenclature de production :
+1. Nombre de composants
+2. Pièces critiques (lead time long)
+3. Risques d’approvisionnement
+4. Actions de mitigation
+
+Format : Tableau synthèse + priorités
+```
+
+**✅ Vérification :**
+- [ ] Composants comptés
+- [ ] Risques identifiés
+- [ ] Actions priorisées
+
+---
+
+## 🎓 Récapitulatif des Exercices par Profil
+
+| Profil | Exercices recommandés | Fichiers à utiliser |
+|--------|------------------------|---------------------|
+| **Technicien / SAV** | Ex. 2, 5, 6 | Manuel SG125CX, Rapport SAV, ODP SAV |
+| **Bureau d’études** | Ex. 1, 3, 4, 8, 12 | Analyse fonctionnelle, Manuels onduleurs, JAM66D45, Compact NSX |
+| **Monitoring / Data** | Ex. 7 | Dataset PV |
+| **Chef projet / PMO** | Ex. 10, 11 | Rapport avancement, Planning PMBOK |
+| **Télécom / Chiffrage** | Ex. 9 | Specs télécom T2 |
+| **Admin / Achats** | Ex. 13 | Fournitures bureau |
+| **Production / BOM** | Ex. 14 | BOMPRN |
+
+---
+
+## ✅ Checklist Post-Session 1
+
+**À faire dans la séance :**
+- [ ] Tester Gemini sur 1 de VOS fichiers personnels
+- [ ] Identifier votre cas #1 (gain de temps le plus évident)
+- [ ] Partager votre meilleur prompt avec le groupe
+
+**À faire en 1 semaine (Session 2) :**
+- [ ] 3 utilisations minimum sur cas réels / participant
+- [ ] Noter les prompts qui fonctionnent bien
+- [ ] Montrer les résultats
+- [ ] Préparer 1 question pour la session 2
+
+---
+
+## 📅 Informations Pratiques
+
+**Sessions & Formateur :**
+- **Sessions :** Samedi 07/02/2026 et Jeudi 12/02/2026
+- **Lieu :** Ben Arous
+- **Formateur :** Houssem Eddine Lassoued
+- **Durée :** 6 heures total (2 séances × 3h)
+
+**Ressources Complémentaires :**
+- https://gemini.google.com
+- https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/SUPPORT_FORMATION_GEMINI_COMPLET.md
+- https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/CARNET_EXERCICES_PRATIQUES.md
+- https://github.com/houssemeddinelassoued/Projet-IA-Compto/blob/main/GUIDE_FORMATEUR.md
