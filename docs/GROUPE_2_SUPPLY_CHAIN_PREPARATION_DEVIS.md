@@ -826,7 +826,7 @@ Mode Canvas activé :
 2. Inclus des données d'exemple réalistes
 3. Ajoute des commentaires en français
 4. Rends l'interface responsive (mobile-friendly)
-5. Utilise des couleurs professionnelles (bleu : #0066CC)
+5. Utilise des couleurs professionnelles (rouge : #CB0030)
 6. Ajoute des validations de formulaire
 7. Inclus des messages d'erreur clairs
 
